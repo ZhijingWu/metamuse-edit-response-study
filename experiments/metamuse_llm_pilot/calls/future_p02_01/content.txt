@@ -1,0 +1,7 @@
+The parent always picks the lowest index, effectively ignoring bin capacities and item sizes, which leads to wasted space. To improve this, we prioritize bins that leave the smallest remaining space after packing the current item (Best Fit). This maximizes bin utilization and reduces fragmentation. To break ties deterministically, we prefer the bin with the highest current population (smallest remaining space before packing), keeping bins densely packed. A tiny index term breaks remaining ties consistently.
+
+```python
+def score(remaining, item, capacity, index, n_bins):
+    after = remaining - item
+    return -after * 10000 - remaining * 10 - index
+```

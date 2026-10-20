@@ -1,0 +1,9 @@
+```python
+def score(remaining, item, capacity, index, n_bins):
+    free = remaining - item
+    used = capacity - remaining
+    u2 = used * used
+    i2 = item * item
+    f2 = free * free
+    return u2 * i2 + 1.0 / (f2 + 1.0) + free * 1000.0
+```

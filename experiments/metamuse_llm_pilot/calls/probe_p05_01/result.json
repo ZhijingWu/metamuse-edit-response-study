@@ -1,0 +1,92 @@
+{
+  "id": "probe_p05_01",
+  "parent": "p05",
+  "role": "probe",
+  "slot": 1,
+  "edit": "alternative",
+  "http_success": true,
+  "evaluation": {
+    "valid": true,
+    "bins": [
+      121,
+      118,
+      109,
+      64,
+      66,
+      67,
+      99,
+      95,
+      109,
+      119,
+      118,
+      119
+    ],
+    "scores": [
+      17.475728155339805,
+      19.19191919191919,
+      14.736842105263158,
+      4.918032786885246,
+      10.0,
+      6.349206349206349,
+      5.319148936170213,
+      4.395604395604396,
+      9.0,
+      35.22727272727273,
+      34.09090909090909,
+      33.70786516853933
+    ],
+    "mean": 16.20104407559246,
+    "action_hashes": [
+      "11bc1147d1ff53993eaa42b75fd225128551b3d4f926143b10a23ecaebcebbaf",
+      "7090fdf3601461b425fc21aa266df955b2f68af2f8a4b99362c17ed27bded73e",
+      "7005ceed30884eb12148698df9d904d37647f904f73a881974a01eea091cf8ff",
+      "b7b9a8c30db67ca34c309c3342bd99ca9e465e407f9b3de34452ac4d841a5d68",
+      "c27da69058da529fe9befb48ec2783a07e88ee235069ed2de75f1e44c0fe88e2",
+      "c394d81ff304a5a15fbc3ec62b452913a5a6f441a2922a26257437d9c6ee617d",
+      "4f10183ae4a0a5611cfbf014f52c3954a46249d62f99123f66b73972084dbccf",
+      "d723921335ad2ed2df27580b85fd0741f1cf806ba326e97d14b0e525ff09bb50",
+      "299a417869ce3a36167a08f371295e5962c2a82a54a53e50ae62842cebc76934",
+      "b4de950deedc07f694998f0ecbc1f68db4705e8592b27f05172c4c54e79cefce",
+      "9955d53c5e055b4b5b275e5b26e8d6f2e3fcbf04127fe2fa070d63513879b724",
+      "5cc418ae82f90e1ede7e61c376874c100e9ccd4bff8db0980f5c4f3e198adea8"
+    ],
+    "features": {
+      "Module": 1,
+      "FunctionDef": 1,
+      "arguments": 1,
+      "Assign": 6,
+      "Return": 1,
+      "arg": 5,
+      "Name": 22,
+      "BinOp": 12,
+      "Store": 6,
+      "Sub": 2,
+      "FloorDiv": 1,
+      "Pow": 1,
+      "Constant": 3,
+      "Mult": 1,
+      "Div": 4,
+      "Add": 3,
+      "Load": 16
+    },
+    "seconds": 0.36730900000020483
+  },
+  "usage": {
+    "completion_tokens": 95,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 308,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 403
+  },
+  "cost_cny": 0.002752,
+  "http_status": 200,
+  "returned_model": "glm-4.7",
+  "finish_reason": "stop",
+  "program_sha256": "6b0babbcd8ff9c85e842515be8631042703b3e360b6585ef37ae41d4e0ad662b",
+  "wall_seconds": 6.168775099999948,
+  "finished_utc": "2026-10-20T01:45:00Z"
+}

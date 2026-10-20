@@ -1,0 +1,99 @@
+{
+  "logical_id": "new_p06_00",
+  "parent": "p06",
+  "slot": 0,
+  "edit": "local",
+  "attempt_id": "a016",
+  "retry": false,
+  "http_success": true,
+  "transport_failure": false,
+  "usage": {
+    "completion_tokens": 82,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 312,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 394
+  },
+  "nominal_cny": 0.00128,
+  "conservative_cny": 0.00256,
+  "evaluation": {
+    "valid": true,
+    "bins": [
+      120,
+      115,
+      109,
+      66,
+      67,
+      69,
+      106,
+      101,
+      116,
+      119,
+      118,
+      120
+    ],
+    "scores": [
+      16.50485436893204,
+      16.161616161616163,
+      14.736842105263158,
+      8.19672131147541,
+      11.666666666666666,
+      9.523809523809524,
+      12.76595744680851,
+      10.989010989010989,
+      16.0,
+      35.22727272727273,
+      34.09090909090909,
+      34.831460674157306
+    ],
+    "mean": 18.391260088826797,
+    "action_hashes": [
+      "a95ebf24fbd2fcf32dad87a1cf0eb19b50af0b47b6d47fd2f8e21fa9472b2d48",
+      "1e733c11d73c2c0e9c986b2340e9df965e51f0526bd956340d9efea008ea88bc",
+      "e509f23c44e724efbbe9d156eca453f34979095a1ebd7c959812f55385f471ae",
+      "16dd95688d87b6e58c15b5173cae9d5e4680d30391550307be8d94b6923d01c8",
+      "6508248483cd6be003c975eaec47107695498469dbbf12bc795c4afa7e4c86b1",
+      "8b91f1da181e607b520ccbdfe1f5814e8ee6a0058cfe735df7b846557d441d29",
+      "521055e741fbb63c14f67798029034c3a7ab427059594c8c25fb1d80fdcd372a",
+      "df0b5bdfbd9490d880192d261f454bb45993e435047eaae8cbbdcaa90c5d1909",
+      "fd3549dec0ef086e33f0dbd34974121f6f5bca77b300341f0521e669414f8489",
+      "2dfc543bb269ae636ad8b87576c0903b7abae1d6fd6e5d9951626adfeccf1af0",
+      "ba9164c66696bbb67ab862448ff6510610cfc56315f8a46f13775597a7cc7be1",
+      "7969779c9a242d022f564467c63368653c731d70df6a11a8004d5aa63a200fbc"
+    ],
+    "features": {
+      "Module": 1,
+      "FunctionDef": 1,
+      "arguments": 1,
+      "Assign": 1,
+      "If": 1,
+      "arg": 5,
+      "Name": 9,
+      "BinOp": 9,
+      "Compare": 1,
+      "Return": 2,
+      "Store": 1,
+      "Sub": 5,
+      "Lt": 1,
+      "Constant": 8,
+      "Load": 8,
+      "UnaryOp": 2,
+      "Mult": 1,
+      "USub": 2,
+      "Call": 2,
+      "Add": 2,
+      "Div": 1
+    },
+    "seconds": 0.1615844999996625
+  },
+  "http_status": 200,
+  "returned_model": "glm-4.7",
+  "finish_reason": "stop",
+  "program_sha256": "3c5052bb5b341191a1a61a4204599c679b4e915a3d1a09861dfe29e790c6cb52",
+  "wall_seconds": 6.809418500000902,
+  "finished_utc": "2026-10-20T02:29:24Z"
+}

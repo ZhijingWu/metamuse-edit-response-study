@@ -1,0 +1,3 @@
+def score(remaining, item, capacity, index, n_bins):
+    slack = remaining - item
+    return -abs(slack - 20) - 0.001 * slack * slack

@@ -1,0 +1,3 @@
+# Python 3.10 or newer. Offline analyses use only the Python standard library.
+# No model SDK, external dataset or pip package is required.
+# Optional note compilation uses pdfLaTeX, NewTX, Helvetica, TikZ and multicol.

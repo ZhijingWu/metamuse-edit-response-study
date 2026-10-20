@@ -1,0 +1,16 @@
+{
+  "logical_id": "new_p01_00",
+  "parent": "p01",
+  "slot": 0,
+  "edit": "local",
+  "attempt_ids": [
+    "a005"
+  ],
+  "final_attempt_id": "a005",
+  "evaluation": {
+    "valid": false,
+    "reason": "Invalid: non-finite, non-scalar or oversized numeric value",
+    "seconds": 0.0002660999998624902
+  },
+  "program_sha256": "310366a6d2cf3fbb11392de75581cf1efbf725501934a040fc3247ccaac81280"
+}

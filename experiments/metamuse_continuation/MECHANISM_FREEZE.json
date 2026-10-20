@@ -1,0 +1,82 @@
+{
+  "utc": "2026-10-20T02:26:40Z",
+  "protocol_sha256": "f036ad31dbf7c61340c9dee99c99737123c8234e92ed6add418b43f057166410",
+  "script_sha256": "0f35186601795508ffe3ce1ec8258fc30e3d3cca3369101686c6d706d8ffa215",
+  "selected_sets_for_fixed_selectors": {
+    "performance": [
+      "p00",
+      "p01",
+      "p02",
+      "p03"
+    ],
+    "random": [
+      "p00",
+      "p01",
+      "p02",
+      "p03"
+    ],
+    "neutral": [
+      "p00",
+      "p02",
+      "p06",
+      "p04"
+    ],
+    "performance_cells_short": [
+      "p00",
+      "p02",
+      "p06",
+      "p04"
+    ],
+    "structural": [
+      "p00",
+      "p07",
+      "p03",
+      "p02"
+    ],
+    "response_current": [
+      "p00",
+      "p06",
+      "p01",
+      "p05"
+    ],
+    "response_masked": [
+      "p00",
+      "p01",
+      "p05",
+      "p02"
+    ],
+    "response_complete": [
+      "p00",
+      "p01",
+      "p05",
+      "p02"
+    ],
+    "response_local": [
+      "p00",
+      "p01",
+      "p05",
+      "p06"
+    ],
+    "offspring_quality": [
+      "p00",
+      "p03",
+      "p05",
+      "p02"
+    ],
+    "probe_control": [
+      "p00",
+      "p01",
+      "p02",
+      "p03"
+    ],
+    "validity_only": [
+      "p00",
+      "p06",
+      "p01",
+      "p03"
+    ]
+  },
+  "new_heldout_evaluated": false,
+  "new_calls": 0,
+  "prior_manifest_files_verified": 359
+}

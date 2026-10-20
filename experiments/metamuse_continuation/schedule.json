@@ -1,0 +1,386 @@
+[
+  {
+    "logical_id": "new_p07_00",
+    "parent": "p07",
+    "slot": 0,
+    "edit": "local"
+  },
+  {
+    "logical_id": "new_p06_01",
+    "parent": "p06",
+    "slot": 1,
+    "edit": "alternative"
+  },
+  {
+    "logical_id": "new_p05_01",
+    "parent": "p05",
+    "slot": 1,
+    "edit": "alternative"
+  },
+  {
+    "logical_id": "new_p00_01",
+    "parent": "p00",
+    "slot": 1,
+    "edit": "alternative"
+  },
+  {
+    "logical_id": "new_p01_00",
+    "parent": "p01",
+    "slot": 0,
+    "edit": "local"
+  },
+  {
+    "logical_id": "new_p00_00",
+    "parent": "p00",
+    "slot": 0,
+    "edit": "local"
+  },
+  {
+    "logical_id": "new_p01_01",
+    "parent": "p01",
+    "slot": 1,
+    "edit": "alternative"
+  },
+  {
+    "logical_id": "new_p02_00",
+    "parent": "p02",
+    "slot": 0,
+    "edit": "local"
+  },
+  {
+    "logical_id": "new_p04_00",
+    "parent": "p04",
+    "slot": 0,
+    "edit": "local"
+  },
+  {
+    "logical_id": "new_p07_01",
+    "parent": "p07",
+    "slot": 1,
+    "edit": "alternative"
+  },
+  {
+    "logical_id": "new_p04_01",
+    "parent": "p04",
+    "slot": 1,
+    "edit": "alternative"
+  },
+  {
+    "logical_id": "new_p02_01",
+    "parent": "p02",
+    "slot": 1,
+    "edit": "alternative"
+  },
+  {
+    "logical_id": "new_p03_00",
+    "parent": "p03",
+    "slot": 0,
+    "edit": "local"
+  },
+  {
+    "logical_id": "new_p03_01",
+    "parent": "p03",
+    "slot": 1,
+    "edit": "alternative"
+  },
+  {
+    "logical_id": "new_p05_00",
+    "parent": "p05",
+    "slot": 0,
+    "edit": "local"
+  },
+  {
+    "logical_id": "new_p06_00",
+    "parent": "p06",
+    "slot": 0,
+    "edit": "local"
+  },
+  {
+    "logical_id": "new_p06_03",
+    "parent": "p06",
+    "slot": 3,
+    "edit": "alternative"
+  },
+  {
+    "logical_id": "new_p06_02",
+    "parent": "p06",
+    "slot": 2,
+    "edit": "local"
+  },
+  {
+    "logical_id": "new_p02_03",
+    "parent": "p02",
+    "slot": 3,
+    "edit": "alternative"
+  },
+  {
+    "logical_id": "new_p07_03",
+    "parent": "p07",
+    "slot": 3,
+    "edit": "alternative"
+  },
+  {
+    "logical_id": "new_p07_02",
+    "parent": "p07",
+    "slot": 2,
+    "edit": "local"
+  },
+  {
+    "logical_id": "new_p03_03",
+    "parent": "p03",
+    "slot": 3,
+    "edit": "alternative"
+  },
+  {
+    "logical_id": "new_p05_02",
+    "parent": "p05",
+    "slot": 2,
+    "edit": "local"
+  },
+  {
+    "logical_id": "new_p05_03",
+    "parent": "p05",
+    "slot": 3,
+    "edit": "alternative"
+  },
+  {
+    "logical_id": "new_p00_02",
+    "parent": "p00",
+    "slot": 2,
+    "edit": "local"
+  },
+  {
+    "logical_id": "new_p00_03",
+    "parent": "p00",
+    "slot": 3,
+    "edit": "alternative"
+  },
+  {
+    "logical_id": "new_p04_03",
+    "parent": "p04",
+    "slot": 3,
+    "edit": "alternative"
+  },
+  {
+    "logical_id": "new_p03_02",
+    "parent": "p03",
+    "slot": 2,
+    "edit": "local"
+  },
+  {
+    "logical_id": "new_p02_02",
+    "parent": "p02",
+    "slot": 2,
+    "edit": "local"
+  },
+  {
+    "logical_id": "new_p01_02",
+    "parent": "p01",
+    "slot": 2,
+    "edit": "local"
+  },
+  {
+    "logical_id": "new_p04_02",
+    "parent": "p04",
+    "slot": 2,
+    "edit": "local"
+  },
+  {
+    "logical_id": "new_p01_03",
+    "parent": "p01",
+    "slot": 3,
+    "edit": "alternative"
+  },
+  {
+    "logical_id": "new_p07_05",
+    "parent": "p07",
+    "slot": 5,
+    "edit": "alternative"
+  },
+  {
+    "logical_id": "new_p03_04",
+    "parent": "p03",
+    "slot": 4,
+    "edit": "local"
+  },
+  {
+    "logical_id": "new_p05_05",
+    "parent": "p05",
+    "slot": 5,
+    "edit": "alternative"
+  },
+  {
+    "logical_id": "new_p06_04",
+    "parent": "p06",
+    "slot": 4,
+    "edit": "local"
+  },
+  {
+    "logical_id": "new_p01_04",
+    "parent": "p01",
+    "slot": 4,
+    "edit": "local"
+  },
+  {
+    "logical_id": "new_p03_05",
+    "parent": "p03",
+    "slot": 5,
+    "edit": "alternative"
+  },
+  {
+    "logical_id": "new_p04_05",
+    "parent": "p04",
+    "slot": 5,
+    "edit": "alternative"
+  },
+  {
+    "logical_id": "new_p01_05",
+    "parent": "p01",
+    "slot": 5,
+    "edit": "alternative"
+  },
+  {
+    "logical_id": "new_p00_04",
+    "parent": "p00",
+    "slot": 4,
+    "edit": "local"
+  },
+  {
+    "logical_id": "new_p06_05",
+    "parent": "p06",
+    "slot": 5,
+    "edit": "alternative"
+  },
+  {
+    "logical_id": "new_p02_05",
+    "parent": "p02",
+    "slot": 5,
+    "edit": "alternative"
+  },
+  {
+    "logical_id": "new_p07_04",
+    "parent": "p07",
+    "slot": 4,
+    "edit": "local"
+  },
+  {
+    "logical_id": "new_p04_04",
+    "parent": "p04",
+    "slot": 4,
+    "edit": "local"
+  },
+  {
+    "logical_id": "new_p05_04",
+    "parent": "p05",
+    "slot": 4,
+    "edit": "local"
+  },
+  {
+    "logical_id": "new_p02_04",
+    "parent": "p02",
+    "slot": 4,
+    "edit": "local"
+  },
+  {
+    "logical_id": "new_p00_05",
+    "parent": "p00",
+    "slot": 5,
+    "edit": "alternative"
+  },
+  {
+    "logical_id": "new_p05_07",
+    "parent": "p05",
+    "slot": 7,
+    "edit": "alternative"
+  },
+  {
+    "logical_id": "new_p03_06",
+    "parent": "p03",
+    "slot": 6,
+    "edit": "local"
+  },
+  {
+    "logical_id": "new_p07_06",
+    "parent": "p07",
+    "slot": 6,
+    "edit": "local"
+  },
+  {
+    "logical_id": "new_p07_07",
+    "parent": "p07",
+    "slot": 7,
+    "edit": "alternative"
+  },
+  {
+    "logical_id": "new_p02_07",
+    "parent": "p02",
+    "slot": 7,
+    "edit": "alternative"
+  },
+  {
+    "logical_id": "new_p04_07",
+    "parent": "p04",
+    "slot": 7,
+    "edit": "alternative"
+  },
+  {
+    "logical_id": "new_p00_06",
+    "parent": "p00",
+    "slot": 6,
+    "edit": "local"
+  },
+  {
+    "logical_id": "new_p01_07",
+    "parent": "p01",
+    "slot": 7,
+    "edit": "alternative"
+  },
+  {
+    "logical_id": "new_p06_07",
+    "parent": "p06",
+    "slot": 7,
+    "edit": "alternative"
+  },
+  {
+    "logical_id": "new_p00_07",
+    "parent": "p00",
+    "slot": 7,
+    "edit": "alternative"
+  },
+  {
+    "logical_id": "new_p06_06",
+    "parent": "p06",
+    "slot": 6,
+    "edit": "local"
+  },
+  {
+    "logical_id": "new_p03_07",
+    "parent": "p03",
+    "slot": 7,
+    "edit": "alternative"
+  },
+  {
+    "logical_id": "new_p04_06",
+    "parent": "p04",
+    "slot": 6,
+    "edit": "local"
+  },
+  {
+    "logical_id": "new_p01_06",
+    "parent": "p01",
+    "slot": 6,
+    "edit": "local"
+  },
+  {
+    "logical_id": "new_p05_06",
+    "parent": "p05",
+    "slot": 6,
+    "edit": "local"
+  },
+  {
+    "logical_id": "new_p02_06",
+    "parent": "p02",
+    "slot": 6,
+    "edit": "local"
+  }
+]

@@ -1,0 +1,10 @@
+def score(remaining, item, capacity, index, n_bins):
+    used = capacity - remaining
+    gap = remaining - item
+    if gap < 10:
+        return -1000 + gap * 10 - used
+    if gap > 50:
+        return -gap * 2 - used
+    tightness = gap * gap
+    affinity = used * item
+    return tightness + affinity - index

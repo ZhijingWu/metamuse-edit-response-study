@@ -1,0 +1,12 @@
+The parent algorithm ignores the fit of the item entirely, favoring only the lowest-index bin (First Fit). By introducing a conditional based on the remaining capacity, we prioritize bins where the item fits perfectly or nearly perfectly, strongly incentivizing tight packs. If no such high-leverage fit exists, we smoothly transition to favoring bins with less remaining space (closer to full) weighted by the inverse index, reducing future fragmentation. This targeted nonlinear change significantly improves packing across varied distributions while retaining the parent's inverse-index tie-breaking rationale.
+
+```python
+def score(remaining, item, capacity, index, n_bins):
+    r = remaining / capacity
+    i = item / capacity
+    if r <= 0.05:
+        return 100.0 / (index + 1)
+    if r - i <= 0.05:
+        return 50.0 / (index + 1)
+    return (1.0 - r) / (index + 1)
+```

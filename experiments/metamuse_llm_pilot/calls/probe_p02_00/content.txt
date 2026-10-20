@@ -1,0 +1,13 @@
+```python
+def score(remaining, item, capacity, index, n_bins):
+    fill = (capacity - remaining) / capacity
+    gap = remaining - item
+    score_val = fill * fill * 1000.0 + 100.0 / (gap + 1)
+    if gap < 4:
+        score_val = score_val * 4.0 + 50.0 / (gap + 0.1)
+    elif gap < 12:
+        score_val = score_val * 2.0 + 20.0 / (gap + 0.5)
+    if remaining == item:
+        score_val = score_val + 5000.0
+    return score_val - index * 0.001
+```

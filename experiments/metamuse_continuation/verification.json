@@ -1,0 +1,15 @@
+{
+  "all_checks_passed": true,
+  "complete_8_by_8_fresh_matrix": true,
+  "new_api_attempts": 64,
+  "new_logical_outcomes": 64,
+  "prior_pilot_files_unchanged": 359,
+  "new_test_traces": 96,
+  "new_test_and_training_separated": true,
+  "secret_hits": 0,
+  "matched_primary_attempts": 32,
+  "primary_credit_view_no_pool_censoring": true,
+  "earlier_cpu_pilot_files_unchanged": 30,
+  "accounting_and_retry_limits_valid": true,
+  "no_api_requests_in_verification": true
+}

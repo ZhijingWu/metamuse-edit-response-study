@@ -1,0 +1,7 @@
+This scorer prioritizes filling bins that have the smallest remaining capacity (Best Fit), which reduces fragmentation and typically yields fewer bins than the pure first-fit parent. To break ties between bins with the same remaining space, it prefers the most recently opened bin, encouraging dense packing of similarly-sized items.
+
+```python
+def score(remaining, item, capacity, index, n_bins):
+    s = capacity - remaining
+    return s * 1000.0 - index
+```

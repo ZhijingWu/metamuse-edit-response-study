@@ -1,0 +1,92 @@
+{
+  "config": {
+    "stage": "Exploratory mechanism revision after frozen first pilot",
+    "intervention": "Probe only at a current performance-cell collision; preserve a second representative only with an observed matched-edit response difference",
+    "train_seed": 20261022,
+    "test_seed": 20261023,
+    "search_seeds": 30,
+    "evaluation_budget": 120,
+    "archive_size": 8,
+    "initial_pool_size": 8,
+    "probe_labels": [
+      0,
+      4
+    ],
+    "methods": [
+      "performance",
+      "selective_response",
+      "collision_coin",
+      "neutral_drift",
+      "random"
+    ],
+    "registration": "Saved before this revision's fresh-bank evaluation; no post-outcome parameter tuning"
+  },
+  "methods": {
+    "performance": {
+      "mean_train": 11.757498575330315,
+      "mean_test": 8.712225653492123,
+      "mean_probes": 0,
+      "mean_split_admissions": 0,
+      "treatment_minus_baseline_test": -0.018079551221872475,
+      "treatment_wins_ties_losses": [
+        4,
+        20,
+        6
+      ]
+    },
+    "selective_response": {
+      "mean_train": 11.740255567015879,
+      "mean_test": 8.69414610227025,
+      "mean_probes": 63.06666666666667,
+      "mean_split_admissions": 11.833333333333334,
+      "treatment_minus_baseline_test": 0.0,
+      "treatment_wins_ties_losses": [
+        0,
+        30,
+        0
+      ]
+    },
+    "collision_coin": {
+      "mean_train": 11.746042604052915,
+      "mean_test": 8.729618693083438,
+      "mean_probes": 62.13333333333333,
+      "mean_split_admissions": 7.266666666666667,
+      "treatment_minus_baseline_test": -0.03547259081318792,
+      "treatment_wins_ties_losses": [
+        4,
+        23,
+        3
+      ]
+    },
+    "neutral_drift": {
+      "mean_train": 11.723012558701441,
+      "mean_test": 8.628173830741865,
+      "mean_probes": 0,
+      "mean_split_admissions": 0,
+      "treatment_minus_baseline_test": 0.06597227152838592,
+      "treatment_wins_ties_losses": [
+        3,
+        21,
+        6
+      ]
+    },
+    "random": {
+      "mean_train": 11.723012558701441,
+      "mean_test": 8.637752374803167,
+      "mean_probes": 0,
+      "mean_split_admissions": 0,
+      "treatment_minus_baseline_test": 0.05639372746708323,
+      "treatment_wins_ties_losses": [
+        4,
+        21,
+        5
+      ]
+    }
+  },
+  "wall_seconds": 45.78876450000007,
+  "actual_precomputation_candidate_trace_evaluations": 15000,
+  "charged_search_candidate_evaluations": 18000,
+  "llm_calls": 0,
+  "llm_tokens": 0,
+  "paid_cost_usd": 0
+}

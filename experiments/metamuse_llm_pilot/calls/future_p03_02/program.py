@@ -1,0 +1,3 @@
+def score(remaining, item, capacity, index, n_bins):
+    f = (capacity - remaining) / capacity
+    return (f + 0.001) / ((index + 1) ** (2.0 - f))

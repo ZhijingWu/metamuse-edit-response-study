@@ -1,0 +1,10 @@
+def score(remaining, item, capacity, index, n_bins):
+    fill = capacity - remaining + item
+    slack = remaining - item
+    t1 = (fill - 65) * (fill - 65)
+    t2 = (slack - 25) * (slack - 25)
+    if fill > 82:
+        if fill > 92:
+            return -t2
+        return -(t1 + t2)
+    return -t2

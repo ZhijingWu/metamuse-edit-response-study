@@ -1,0 +1,98 @@
+{
+  "id": "future_p06_02",
+  "chosen_using": "minimum training mean over every available executable response, ID tie-break",
+  "parent": "p06",
+  "initial_train_mean": 12.82200394710881,
+  "child_train_mean": 12.689728814833678,
+  "initial_heldout_mean": 7.261433243575846,
+  "child_heldout_mean": 6.988209199859999,
+  "heldout_absolute_improvement_pp": 0.27322404371584685,
+  "heldout_relative_reduction_in_excess_metric": 0.0376267376633348,
+  "per_trace": [
+    {
+      "trace": "uniform_0",
+      "family": "uniform",
+      "initial_best": 10.1010101010101,
+      "training_selected_child": 10.1010101010101,
+      "difference_child_minus_initial": 0.0
+    },
+    {
+      "trace": "uniform_1",
+      "family": "uniform",
+      "initial_best": 9.574468085106384,
+      "training_selected_child": 9.574468085106384,
+      "difference_child_minus_initial": 0.0
+    },
+    {
+      "trace": "uniform_2",
+      "family": "uniform",
+      "initial_best": 9.090909090909092,
+      "training_selected_child": 9.090909090909092,
+      "difference_child_minus_initial": 0.0
+    },
+    {
+      "trace": "weibull_0",
+      "family": "weibull",
+      "initial_best": 3.4482758620689653,
+      "training_selected_child": 3.4482758620689653,
+      "difference_child_minus_initial": 0.0
+    },
+    {
+      "trace": "weibull_1",
+      "family": "weibull",
+      "initial_best": 4.918032786885246,
+      "training_selected_child": 3.278688524590164,
+      "difference_child_minus_initial": -1.639344262295082
+    },
+    {
+      "trace": "weibull_2",
+      "family": "weibull",
+      "initial_best": 3.278688524590164,
+      "training_selected_child": 1.639344262295082,
+      "difference_child_minus_initial": -1.639344262295082
+    },
+    {
+      "trace": "complementary_0",
+      "family": "complementary",
+      "initial_best": 10.526315789473685,
+      "training_selected_child": 10.526315789473685,
+      "difference_child_minus_initial": 0.0
+    },
+    {
+      "trace": "complementary_1",
+      "family": "complementary",
+      "initial_best": 7.368421052631579,
+      "training_selected_child": 7.368421052631579,
+      "difference_child_minus_initial": 0.0
+    },
+    {
+      "trace": "complementary_2",
+      "family": "complementary",
+      "initial_best": 5.208333333333333,
+      "training_selected_child": 5.208333333333333,
+      "difference_child_minus_initial": 0.0
+    },
+    {
+      "trace": "phased_0",
+      "family": "phased",
+      "initial_best": 6.666666666666667,
+      "training_selected_child": 6.666666666666667,
+      "difference_child_minus_initial": 0.0
+    },
+    {
+      "trace": "phased_1",
+      "family": "phased",
+      "initial_best": 7.865168539325842,
+      "training_selected_child": 7.865168539325842,
+      "difference_child_minus_initial": 0.0
+    },
+    {
+      "trace": "phased_2",
+      "family": "phased",
+      "initial_best": 9.090909090909092,
+      "training_selected_child": 9.090909090909092,
+      "difference_child_minus_initial": 0.0
+    }
+  ],
+  "novelty": "No novelty or state-of-the-art claim for this heuristic"
+}

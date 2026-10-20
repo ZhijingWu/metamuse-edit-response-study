@@ -1,0 +1,24 @@
+% Original vector diagram. Illustrative symbols, no synthetic empirical values.
+% Compile by input from the note; colors and TikZ libraries are defined there.
+\begin{tikzpicture}[x=1cm,y=1cm,>=Latex,
+  every node/.style={font=\sffamily\fontsize{9.2}{10.7}\selectfont,text=ink},
+  box/.style={draw=rulegray,rounded corners=1.5pt,fill=white,align=center,minimum height=0.76cm,text width=2.65cm,inner sep=3pt},
+  arr/.style={->,draw=muted,line width=0.7pt}]
+\path[use as bounding box] (0,-0.1) rectangle (17.9,3.05);
+\foreach \x/\label in {1.5/Observed programs,5.0/Matched edits,8.5/Measured responses,12.05/Budgeted retention,15.7/Future search}
+  \node[font=\sffamily\bfseries\fontsize{9.2}{11}\selectfont,text=blue] at (\x,2.84) {\label};
+\node[box] (p) at (1.5,2.05) {Executable $p$};
+\node[box] (q) at (1.5,0.90) {Executable $q$};
+\node[box,fill=lightblue] (ep) at (5.0,2.05) {Same labels $L$\\$M_{\ell}(p)$};
+\node[box,fill=lightblue] (eq) at (5.0,0.90) {Same labels $L$\\$M_{\ell}(q)$};
+\node[box] (rp) at (8.5,2.05) {Children of $p$\\$R_L(p)$};
+\node[box] (rq) at (8.5,0.90) {Children of $q$\\$R_L(q)$};
+\node[box,fill=lightblue,minimum height=1.16cm] (ret) at (12.05,1.475) {Keep four parents\\Probes are charged\\Fixed budget};
+\node[box,draw=muted,dashed,text width=2.65cm,minimum height=1.16cm] (future) at (15.7,1.475) {More useful discoveries?\\\textbf{Hypothesis to test}};
+\draw[arr] (p)--(ep);\draw[arr] (q)--(eq);
+\draw[arr] (ep)--(rp);\draw[arr] (eq)--(rq);
+\draw[arr] (rp.east)--(ret.west);\draw[arr] (rq.east)--(ret.west);
+\draw[arr,dashed] (ret)--(future);
+\node[anchor=west,font=\sffamily\fontsize{8.8}{10.5}\selectfont,text=muted] at (0.02,0.05)
+  {$F_W(p)=F_W(q)$ on observed workloads \quad $\ne$ semantic equivalence \hspace{8pt} $\vert$ \hspace{8pt} Different edit responses need not predict better search.};
+\end{tikzpicture}

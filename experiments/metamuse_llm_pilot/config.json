@@ -1,0 +1,47 @@
+{
+  "frozen_utc": "2026-10-20T01:41:54Z",
+  "model": "glm-4.7",
+  "endpoint": "https://open.bigmodel.cn/api/paas/v4/chat/completions",
+  "max_attempts": 112,
+  "max_successes": 112,
+  "max_tokens": 1200,
+  "input_reserve_tokens": 8192,
+  "max_prompt_bytes": 6000,
+  "timeout_seconds": 90,
+  "retries": 0,
+  "temperature": 0.9,
+  "thinking": {
+    "type": "disabled"
+  },
+  "prices_cny_per_million": {
+    "input": 4,
+    "output": 16
+  },
+  "reservation_per_attempt_cny": 0.051968,
+  "max_reserved_cny": 5.820416,
+  "usd_envelope": 25,
+  "conservative_usd_per_cny": 1,
+  "methods": [
+    "performance",
+    "random",
+    "neutral_drift",
+    "structural",
+    "response",
+    "probe_control",
+    "offspring_quality"
+  ],
+  "archive_size": 4,
+  "attempts_per_replay": 48,
+  "replay_seeds": 100,
+  "system": "You edit deterministic executable online bin-packing heuristics.\nReturn only Python source defining score(remaining, item, capacity, index, n_bins).\nFor each feasible existing bin, this function returns a finite numeric priority;\nthe highest priority wins, ties use the lowest bin index. New bins are forced\nonly when no existing bin fits. capacity=100; remaining>=item>0; indices start at 0.\nUse only numeric constants, local scalar assignments, if/elif/else, return,\narithmetic + - * / // % ** (power at most 4), comparisons, boolean operators,\nconditional expressions, and calls to abs, min, max, exp, log, sqrt.\nNo imports, attributes, subscripts, loops, comprehensions, collections, globals,\nrecursion, randomness, annotations, decorators, strings or extra functions.\nKeep source under 1600 ASCII characters. Avoid division by zero and huge values.\nThe objective is fewer bins on unseen online sequences, not prettier code.\nThe training workload families are uniform, Weibull, complementary and phased\nsizes. No future items or sequence history are available to this scorer.\nProduce a genuinely changed scoring algorithm, not a rename or scaling alone.",
+  "edits": {
+    "local": "Improve this parent by making a targeted nonlinear or conditional change to its bin-scoring rule. Retain a recognizable connection to its rationale, but seek better packing.",
+    "alternative": "Improve this parent by proposing a different residual-space scoring tradeoff, possibly using item size or current bin population. You may change its main scoring preference."
+  },
+  "protocol_sha256": "3a434bc7ed4212a9a001afeea10f027f8542190b79517ea7573e6b95007f877d",
+  "script_sha256": "b552591ef99558f2dd3cee53d1e90b8a3cc5fae8869dcdf6295c4f4aed16e8ca",
+  "python": "3.13.5",
+  "workload_train_sha256": "ba931ced88c1c74b5deaf1b9daa775159410f1deab18013b054dddebad70d3f5",
+  "workload_heldout_sha256": "ee261ab8d6c554ef4d9f6dc42eeff318de593f54266c352df8a86b1af0eb173c",
+  "parser_revision": 2
+}

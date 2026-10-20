@@ -1,0 +1,7 @@
+A scoring function that prioritizes bins where the item leaves the smallest absolute remaining space (Best Fit). To break ties and prefer fuller bins when exact fits aren't available, it uses a small penalty based on the remaining space. The highest priority goes to the tightest fit, and the `-index` naturally resolves ties towards the lowest index.
+
+```python
+def score(remaining, item, capacity, index, n_bins):
+    space = remaining - item
+    return -space * 10000 - remaining * 10 - index
+```

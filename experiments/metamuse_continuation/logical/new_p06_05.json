@@ -1,0 +1,81 @@
+{
+  "logical_id": "new_p06_05",
+  "parent": "p06",
+  "slot": 5,
+  "edit": "alternative",
+  "attempt_ids": [
+    "a042"
+  ],
+  "final_attempt_id": "a042",
+  "evaluation": {
+    "valid": true,
+    "bins": [
+      114,
+      112,
+      103,
+      63,
+      63,
+      65,
+      102,
+      98,
+      109,
+      119,
+      118,
+      119
+    ],
+    "scores": [
+      10.679611650485437,
+      13.131313131313131,
+      8.421052631578947,
+      3.278688524590164,
+      5.0,
+      3.1746031746031744,
+      8.51063829787234,
+      7.6923076923076925,
+      9.0,
+      35.22727272727273,
+      34.09090909090909,
+      33.70786516853933
+    ],
+    "mean": 14.326188507456003,
+    "action_hashes": [
+      "9b87e34813e8016b01bce8584d76788ab4ab415d2a715cbd04e5e721fc3b7bf3",
+      "e92d5f40807136a119d540a18e8bdfe756c3da37a527321aefe7b57d0f43eb4f",
+      "430d3b30dd943859c915b066ff7e4a353cd9e70cb69f0dc1e19d11390a0bda07",
+      "b407edc2259a10cbd788ece8f67eb60f2285815a1b8632df4a969f690159d79a",
+      "8965103004d18d00cfb48ad93f1f084547c540668806a9351411db46a2444562",
+      "5d8145ed4744b2996e7fbfd05154c1e1c0d5201201ef2b4de6b09820c0ccc085",
+      "bd50aecef79856d5ce222c67efc9350b45aa8e557bbd6cad26cacc4d3303e189",
+      "017f7273027b0fa306c9fc01975e02e0a47ab012c489903974bf0bff73062a50",
+      "0dc3433b238867de4f46726b51b218ac4c14e87acd9cfddd0045a9d12bce808b",
+      "9b2f5fb12133adcfe306d188f5935e7aae3257625cb2326ac9c4b309ddbe2f8f",
+      "bbd713addd6d4b6873efb0c3a1468f843e77dcfc5826e89c6a911e2889a5fba2",
+      "1ca585e383b44d1aaa46cebc3e37e50c585bfbc91afeb25e5b4a79008d540d0c"
+    ],
+    "features": {
+      "Module": 1,
+      "FunctionDef": 1,
+      "arguments": 1,
+      "Assign": 4,
+      "If": 4,
+      "Return": 5,
+      "arg": 5,
+      "Name": 28,
+      "BinOp": 26,
+      "Compare": 4,
+      "Store": 4,
+      "Sub": 9,
+      "Div": 3,
+      "LtE": 3,
+      "Constant": 19,
+      "UnaryOp": 2,
+      "Gt": 1,
+      "Load": 24,
+      "USub": 2,
+      "Mult": 11,
+      "Add": 3
+    },
+    "seconds": 0.29664690000026894
+  },
+  "program_sha256": "900455d0be9f0254073f62933b555de3df15483064dd9016ad8b5b7fb07555a2"
+}

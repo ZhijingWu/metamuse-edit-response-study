@@ -1,0 +1,75 @@
+{
+  "logical_id": "new_p00_03",
+  "parent": "p00",
+  "slot": 3,
+  "edit": "alternative",
+  "attempt_ids": [
+    "a026"
+  ],
+  "final_attempt_id": "a026",
+  "evaluation": {
+    "valid": true,
+    "bins": [
+      112,
+      112,
+      102,
+      62,
+      62,
+      65,
+      98,
+      93,
+      107,
+      119,
+      118,
+      119
+    ],
+    "scores": [
+      8.737864077669903,
+      13.131313131313131,
+      7.368421052631579,
+      1.639344262295082,
+      3.3333333333333335,
+      3.1746031746031744,
+      4.25531914893617,
+      2.197802197802198,
+      7.0,
+      35.22727272727273,
+      34.09090909090909,
+      33.70786516853933
+    ],
+    "mean": 12.82200394710881,
+    "action_hashes": [
+      "43ef95b5945431ff0f4cfea466e19d1455233b13eca422db0e4093f63f39d17f",
+      "a0e0c39671a626825267e4fe402d3ab1cc47aaa0db577ba6fb26f3ea8d10d478",
+      "036e19f10953153a192c0b7e75c558db4224a303c62b12e38745f36b51c7efcd",
+      "e10ee51e080b54432d292f45b6b59fea3bb5937db51786cbd0d064417768aa72",
+      "1d7560e855459d6ac9c7f301be6fb9fa169f2d01d3bc6ee2969d1b36b65877e3",
+      "47fa4a98289e75cf19455540d7a33dc7c893362456e344d59c3223ca6bd3adfe",
+      "937aeba5042a9e2b15a36510ede113e26a38c38f74c8eb3fc4798b17a92d8b38",
+      "8cb60aee22a7addabb33c7e2d8a716f20933c7e1ff263738d8f18b2fb1a97e78",
+      "3572fb17929b8a7b54b337eca1c73cd27bf8c30df351de3acb486f4eb1c655e0",
+      "f89c0fe4f3069dfd801e3e941fe421a66e6609109bccdf87561328841b96b15c",
+      "16168a0491804c57b703cdf488cac86bc53176165c43f56931c6b348d0eeee9c",
+      "70a39b0131350c5c9c4ed9069ad2d9a033eab48e3df0533f206909096964fc6e"
+    ],
+    "features": {
+      "Module": 1,
+      "FunctionDef": 1,
+      "arguments": 1,
+      "Assign": 1,
+      "Return": 1,
+      "arg": 5,
+      "Name": 9,
+      "BinOp": 12,
+      "Store": 1,
+      "Sub": 3,
+      "Load": 8,
+      "Add": 3,
+      "Div": 4,
+      "Constant": 6,
+      "Mult": 2
+    },
+    "seconds": 0.10397209999973711
+  },
+  "program_sha256": "3859d4d545054a96514ad1a978c32283c74f636e3a916763ce0400bded21407f"
+}

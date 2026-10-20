@@ -1,0 +1,12 @@
+The parent scores bins by their future space (`remaining-item`), normalized by capacity. This linearly prefers bins that will be most empty, ignoring the current fill state. 
+
+A targeted nonlinear improvement is to apply a harmonic weight based on the current fill level. Bins that are nearly full receive a drastically higher priority, which strongly encourages completing them (reducing fragmentation). Bins that are nearly empty receive a lower priority, preserving them for potentially larger future items. 
+
+We replace the parent's linear rule `(remaining-item)/capacity` with `((remaining-item)/capacity) * (1.0 / (remaining/capacity))`, which simplifies to `(remaining-item)/remaining`. To gracefully handle the extreme case where a bin is perfectly full (`remaining == item`), we add a conditional check to return a very high priority.
+
+```python
+def score(remaining, item, capacity, index, n_bins):
+    if remaining == item:
+        return 100.0
+    return (remaining - item) / remaining
+```

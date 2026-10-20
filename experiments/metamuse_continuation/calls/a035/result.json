@@ -1,0 +1,32 @@
+{
+  "logical_id": "new_p05_05",
+  "parent": "p05",
+  "slot": 5,
+  "edit": "alternative",
+  "attempt_id": "a035",
+  "retry": false,
+  "http_success": true,
+  "transport_failure": false,
+  "usage": {
+    "completion_tokens": 51,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 308,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 359
+  },
+  "nominal_cny": 0.001024,
+  "conservative_cny": 0.002048,
+  "evaluation": {
+    "valid": false,
+    "reason": "Invalid: exactly one closed code block required"
+  },
+  "http_status": 200,
+  "returned_model": "glm-4.7",
+  "finish_reason": "stop",
+  "wall_seconds": 6.134491499999058,
+  "finished_utc": "2026-10-20T02:32:17Z"
+}

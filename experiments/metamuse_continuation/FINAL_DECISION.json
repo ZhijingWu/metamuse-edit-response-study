@@ -1,0 +1,55 @@
+{
+  "classification": "NEGATIVE RESULT",
+  "scope": "Tested retention mechanisms in one eight-parent GLM-4.7 bin-packing refinement matrix at 32 search attempts; not a universal impossibility claim.",
+  "previous_pilot_conclusion_preserved": "INCONCLUSIVE for its original interrupted 48-credit comparison",
+  "comparison_complete": {
+    "targeted_32_credit_endpoint": true,
+    "fresh_future_matrix": "8 parents x 8 newly generated future edits",
+    "old_48_credit_endpoint_retroactively_completed": false,
+    "primary_pool_exhaustion": false,
+    "fresh_heldout_traces": 96,
+    "independent_workload_banks": 8,
+    "independent_model_search_matrices": 1,
+    "allocation_draws_are_not_independent_llm_experiments": true,
+    "cost_matching": "Common attempt/evaluation ceilings plus a common nominal-money and evaluation-time ceiling; all probes charged. Discrete prefixes need not spend identical amounts."
+  },
+  "response_advantage_survives_strong_cheap_controls": false,
+  "invalidity_diagnosis": {
+    "fraction_of_first_selected_parent_distance_from_artificial_invalid_coordinate": 0.9994491728360094,
+    "masking_or_complete_cases_drops_p06": true,
+    "penalty_free_repair_establishes_new_method_advantage": false,
+    "fresh_global_training_winner_parent": "p01",
+    "p06_fresh_global_training_improvements": 0
+  },
+  "cheaper_information": {
+    "local_only_probes_choose_same_old_parent_set": true,
+    "probe_cost_reduction_attempts": "16 to 8",
+    "incremental_useful_information_over_free_retention_demonstrated": false,
+    "ordinary_performance_retention_already_keeps_fresh_winner_parent": true
+  },
+  "exact_primary_results": {
+    "current_response_new_test": 6.793447573839347,
+    "neutral_new_test": 6.793447573839342,
+    "current_response_nominal_cny": 0.0577888,
+    "neutral_nominal_cny": 0.0546779,
+    "current_relative_money_overhead_vs_neutral": 0.056895016085109384,
+    "masked_and_complete_response_new_test": 6.793447573839348,
+    "local_only_response_new_test": 6.793599864287685,
+    "best_fit_seed_new_test": 6.793142992942656,
+    "fresh_training_winner_new_test": 6.793752154736028,
+    "old_winner_reference_new_test": 6.800137850776896,
+    "lower_is_better": true
+  },
+  "new_selection_mechanism_justified": false,
+  "further_paid_tuning_on_this_bank": "NO-GO",
+  "further_research_condition": "Consider independent creative-parent/offspring archives or materially different parent banks before another paid mechanism study; do not tune against these tests.",
+  "francis_yan_followup": "Defer a new-method pitch. A factual request about creative-parent trajectories or an empirical collaboration discussion could be reasonable; these data do not justify an innovation claim.",
+  "email_or_technical_note_created": false,
+  "new_actual_api_attempts": 64,
+  "new_actual_api_responses": 64,
+  "new_executable_responses_under_frozen_interpreter": 58,
+  "new_transport_retries": 0,
+  "new_nominal_estimated_cny": 0.1093558,
+  "new_conservative_estimated_cny": 0.199712,
+  "no_further_paid_round_started": true
+}

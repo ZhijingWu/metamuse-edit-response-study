@@ -1,0 +1,9 @@
+We score bins by penalizing large wasted space while strongly favoring bins that are exactly full. Since the first-fit policy is robust for many uniform/complementary distributions, we add a tiebreaker that softly prefers earlier bins. This avoids getting trapped in local minima caused by strict priority inversions.
+
+```python
+def score(remaining, item, capacity, index, n_bins):
+    space = remaining - item
+    if space == 0:
+        return 1.0e9 - index
+    return -space * 100.0 - index
+```

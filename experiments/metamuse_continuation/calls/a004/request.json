@@ -1,0 +1,31 @@
+{
+  "logical_id": "new_p00_01",
+  "parent": "p00",
+  "slot": 1,
+  "edit": "alternative",
+  "attempt_id": "a004",
+  "retry": false,
+  "started_utc": "2026-10-20T02:27:15Z",
+  "payload": {
+    "model": "glm-4.7",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You edit deterministic executable online bin-packing heuristics.\nReturn only Python source defining score(remaining, item, capacity, index, n_bins).\nFor each feasible existing bin, this function returns a finite numeric priority;\nthe highest priority wins, ties use the lowest bin index. New bins are forced\nonly when no existing bin fits. capacity=100; remaining>=item>0; indices start at 0.\nUse only numeric constants, local scalar assignments, if/elif/else, return,\narithmetic + - * / // % ** (power at most 4), comparisons, boolean operators,\nconditional expressions, and calls to abs, min, max, exp, log, sqrt.\nNo imports, attributes, subscripts, loops, comprehensions, collections, globals,\nrecursion, randomness, annotations, decorators, strings or extra functions.\nKeep source under 1600 ASCII characters. Avoid division by zero and huge values.\nThe objective is fewer bins on unseen online sequences, not prettier code.\nThe training workload families are uniform, Weibull, complementary and phased\nsizes. No future items or sequence history are available to this scorer.\nProduce a genuinely changed scoring algorithm, not a rename or scaling alone."
+      },
+      {
+        "role": "user",
+        "content": "Improve this parent by proposing a different residual-space scoring tradeoff, possibly using item size or current bin population. You may change its main scoring preference.\n\nParent:\ndef score(remaining, item, capacity, index, n_bins):\n    return -(remaining-item)\n"
+      }
+    ],
+    "max_tokens": 1200,
+    "temperature": 0.9,
+    "thinking": {
+      "type": "disabled"
+    },
+    "stream": false
+  },
+  "parent_sha256": "a4cc34ba1cd66875896d92eda6577ecfcabb7dae14f64bcd29db1332db34db25",
+  "reserved_cny": 0.051968,
+  "endpoint": "https://open.bigmodel.cn/api/paas/v4/chat/completions"
+}

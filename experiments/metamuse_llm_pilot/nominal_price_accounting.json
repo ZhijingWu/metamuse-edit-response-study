@@ -1,0 +1,607 @@
+{
+  "source": "sources/pricing.md",
+  "total_cny_including_unknown_call_reserve": 0.1507174,
+  "warning": "Official tier-aware token estimate, not account invoice; unknown failed call uses full higher-tier reserve.",
+  "calls": [
+    {
+      "id": "future_p00_00",
+      "prompt_tokens": 308,
+      "completion_tokens": 197,
+      "cached_tokens": 0,
+      "input_price_cny_per_million": 2,
+      "output_price_cny_per_million": 8,
+      "estimated_cny_or_failure_reserve": 0.002192,
+      "usage_known": true
+    },
+    {
+      "id": "future_p00_01",
+      "prompt_tokens": 306,
+      "completion_tokens": 75,
+      "cached_tokens": 0,
+      "input_price_cny_per_million": 2,
+      "output_price_cny_per_million": 8,
+      "estimated_cny_or_failure_reserve": 0.001212,
+      "usage_known": true
+    },
+    {
+      "id": "future_p00_02",
+      "prompt_tokens": 308,
+      "completion_tokens": 87,
+      "cached_tokens": 0,
+      "input_price_cny_per_million": 2,
+      "output_price_cny_per_million": 8,
+      "estimated_cny_or_failure_reserve": 0.001312,
+      "usage_known": true
+    },
+    {
+      "id": "future_p00_03",
+      "prompt_tokens": 306,
+      "completion_tokens": 61,
+      "cached_tokens": 0,
+      "input_price_cny_per_million": 2,
+      "output_price_cny_per_million": 8,
+      "estimated_cny_or_failure_reserve": 0.0011,
+      "usage_known": true
+    },
+    {
+      "id": "future_p00_06",
+      "prompt_tokens": 308,
+      "completion_tokens": 196,
+      "cached_tokens": 0,
+      "input_price_cny_per_million": 2,
+      "output_price_cny_per_million": 8,
+      "estimated_cny_or_failure_reserve": 0.002184,
+      "usage_known": true
+    },
+    {
+      "id": "future_p01_00",
+      "prompt_tokens": 314,
+      "completion_tokens": 112,
+      "cached_tokens": 0,
+      "input_price_cny_per_million": 2,
+      "output_price_cny_per_million": 8,
+      "estimated_cny_or_failure_reserve": 0.001524,
+      "usage_known": true
+    },
+    {
+      "id": "future_p01_01",
+      "prompt_tokens": 312,
+      "completion_tokens": 56,
+      "cached_tokens": 0,
+      "input_price_cny_per_million": 2,
+      "output_price_cny_per_million": 8,
+      "estimated_cny_or_failure_reserve": 0.001072,
+      "usage_known": true
+    },
+    {
+      "id": "future_p01_02",
+      "prompt_tokens": 314,
+      "completion_tokens": 128,
+      "cached_tokens": 0,
+      "input_price_cny_per_million": 2,
+      "output_price_cny_per_million": 8,
+      "estimated_cny_or_failure_reserve": 0.001652,
+      "usage_known": true
+    },
+    {
+      "id": "future_p01_03",
+      "prompt_tokens": 312,
+      "completion_tokens": 52,
+      "cached_tokens": 0,
+      "input_price_cny_per_million": 2,
+      "output_price_cny_per_million": 8,
+      "estimated_cny_or_failure_reserve": 0.00104,
+      "usage_known": true
+    },
+    {
+      "id": "future_p01_04",
+      "prompt_tokens": 314,
+      "completion_tokens": 328,
+      "cached_tokens": 0,
+      "input_price_cny_per_million": 3,
+      "output_price_cny_per_million": 14,
+      "estimated_cny_or_failure_reserve": 0.005534,
+      "usage_known": true
+    },
+    {
+      "id": "future_p02_00",
+      "prompt_tokens": 307,
+      "completion_tokens": 121,
+      "cached_tokens": 0,
+      "input_price_cny_per_million": 2,
+      "output_price_cny_per_million": 8,
+      "estimated_cny_or_failure_reserve": 0.001582,
+      "usage_known": true
+    },
+    {
+      "id": "future_p02_01",
+      "prompt_tokens": 305,
+      "completion_tokens": 132,
+      "cached_tokens": 0,
+      "input_price_cny_per_million": 2,
+      "output_price_cny_per_million": 8,
+      "estimated_cny_or_failure_reserve": 0.001666,
+      "usage_known": true
+    },
+    {
+      "id": "future_p02_02",
+      "prompt_tokens": 307,
+      "completion_tokens": 185,
+      "cached_tokens": 0,
+      "input_price_cny_per_million": 2,
+      "output_price_cny_per_million": 8,
+      "estimated_cny_or_failure_reserve": 0.002094,
+      "usage_known": true
+    },
+    {
+      "id": "future_p02_03",
+      "prompt_tokens": 305,
+      "completion_tokens": 146,
+      "cached_tokens": 0,
+      "input_price_cny_per_million": 2,
+      "output_price_cny_per_million": 8,
+      "estimated_cny_or_failure_reserve": 0.001778,
+      "usage_known": true
+    },
+    {
+      "id": "future_p02_05",
+      "prompt_tokens": 305,
+      "completion_tokens": 115,
+      "cached_tokens": 0,
+      "input_price_cny_per_million": 2,
+      "output_price_cny_per_million": 8,
+      "estimated_cny_or_failure_reserve": 0.00153,
+      "usage_known": true
+    },
+    {
+      "id": "future_p02_06",
+      "prompt_tokens": 307,
+      "completion_tokens": 183,
+      "cached_tokens": 0,
+      "input_price_cny_per_million": 2,
+      "output_price_cny_per_million": 8,
+      "estimated_cny_or_failure_reserve": 0.002078,
+      "usage_known": true
+    },
+    {
+      "id": "future_p03_00",
+      "prompt_tokens": 313,
+      "completion_tokens": 194,
+      "cached_tokens": 0,
+      "input_price_cny_per_million": 2,
+      "output_price_cny_per_million": 8,
+      "estimated_cny_or_failure_reserve": 0.002178,
+      "usage_known": true
+    },
+    {
+      "id": "future_p03_01",
+      "prompt_tokens": 311,
+      "completion_tokens": 92,
+      "cached_tokens": 0,
+      "input_price_cny_per_million": 2,
+      "output_price_cny_per_million": 8,
+      "estimated_cny_or_failure_reserve": 0.001358,
+      "usage_known": true
+    },
+    {
+      "id": "future_p03_02",
+      "prompt_tokens": 313,
+      "completion_tokens": 55,
+      "cached_tokens": 0,
+      "input_price_cny_per_million": 2,
+      "output_price_cny_per_million": 8,
+      "estimated_cny_or_failure_reserve": 0.001066,
+      "usage_known": true
+    },
+    {
+      "id": "future_p03_03",
+      "prompt_tokens": 311,
+      "completion_tokens": 144,
+      "cached_tokens": 0,
+      "input_price_cny_per_million": 2,
+      "output_price_cny_per_million": 8,
+      "estimated_cny_or_failure_reserve": 0.001774,
+      "usage_known": true
+    },
+    {
+      "id": "future_p03_05",
+      "prompt_tokens": 311,
+      "completion_tokens": 116,
+      "cached_tokens": 0,
+      "input_price_cny_per_million": 2,
+      "output_price_cny_per_million": 8,
+      "estimated_cny_or_failure_reserve": 0.00155,
+      "usage_known": true
+    },
+    {
+      "id": "future_p03_07",
+      "prompt_tokens": 311,
+      "completion_tokens": 142,
+      "cached_tokens": 0,
+      "input_price_cny_per_million": 2,
+      "output_price_cny_per_million": 8,
+      "estimated_cny_or_failure_reserve": 0.001758,
+      "usage_known": true
+    },
+    {
+      "id": "future_p04_00",
+      "prompt_tokens": 307,
+      "completion_tokens": 52,
+      "cached_tokens": 0,
+      "input_price_cny_per_million": 2,
+      "output_price_cny_per_million": 8,
+      "estimated_cny_or_failure_reserve": 0.00103,
+      "usage_known": true
+    },
+    {
+      "id": "future_p04_01",
+      "prompt_tokens": 305,
+      "completion_tokens": 48,
+      "cached_tokens": 0,
+      "input_price_cny_per_million": 2,
+      "output_price_cny_per_million": 8,
+      "estimated_cny_or_failure_reserve": 0.000994,
+      "usage_known": true
+    },
+    {
+      "id": "future_p04_02",
+      "prompt_tokens": 307,
+      "completion_tokens": 154,
+      "cached_tokens": 0,
+      "input_price_cny_per_million": 2,
+      "output_price_cny_per_million": 8,
+      "estimated_cny_or_failure_reserve": 0.001846,
+      "usage_known": true
+    },
+    {
+      "id": "future_p04_03",
+      "prompt_tokens": 305,
+      "completion_tokens": 68,
+      "cached_tokens": 0,
+      "input_price_cny_per_million": 2,
+      "output_price_cny_per_million": 8,
+      "estimated_cny_or_failure_reserve": 0.001154,
+      "usage_known": true
+    },
+    {
+      "id": "future_p05_00",
+      "prompt_tokens": 310,
+      "completion_tokens": 95,
+      "cached_tokens": 0,
+      "input_price_cny_per_million": 2,
+      "output_price_cny_per_million": 8,
+      "estimated_cny_or_failure_reserve": 0.00138,
+      "usage_known": true
+    },
+    {
+      "id": "future_p05_01",
+      "prompt_tokens": 308,
+      "completion_tokens": 156,
+      "cached_tokens": 256,
+      "input_price_cny_per_million": 2,
+      "output_price_cny_per_million": 8,
+      "estimated_cny_or_failure_reserve": 0.0014544,
+      "usage_known": true
+    },
+    {
+      "id": "future_p05_02",
+      "prompt_tokens": 310,
+      "completion_tokens": 109,
+      "cached_tokens": 0,
+      "input_price_cny_per_million": 2,
+      "output_price_cny_per_million": 8,
+      "estimated_cny_or_failure_reserve": 0.001492,
+      "usage_known": true
+    },
+    {
+      "id": "future_p05_03",
+      "prompt_tokens": 308,
+      "completion_tokens": 52,
+      "cached_tokens": 0,
+      "input_price_cny_per_million": 2,
+      "output_price_cny_per_million": 8,
+      "estimated_cny_or_failure_reserve": 0.001032,
+      "usage_known": true
+    },
+    {
+      "id": "future_p05_07",
+      "prompt_tokens": 308,
+      "completion_tokens": 59,
+      "cached_tokens": 0,
+      "input_price_cny_per_million": 2,
+      "output_price_cny_per_million": 8,
+      "estimated_cny_or_failure_reserve": 0.001088,
+      "usage_known": true
+    },
+    {
+      "id": "future_p06_00",
+      "prompt_tokens": 312,
+      "completion_tokens": 46,
+      "cached_tokens": 256,
+      "input_price_cny_per_million": 2,
+      "output_price_cny_per_million": 8,
+      "estimated_cny_or_failure_reserve": 0.0005824,
+      "usage_known": true
+    },
+    {
+      "id": "future_p06_01",
+      "prompt_tokens": 310,
+      "completion_tokens": 61,
+      "cached_tokens": 0,
+      "input_price_cny_per_million": 2,
+      "output_price_cny_per_million": 8,
+      "estimated_cny_or_failure_reserve": 0.001108,
+      "usage_known": true
+    },
+    {
+      "id": "future_p06_02",
+      "prompt_tokens": 312,
+      "completion_tokens": 104,
+      "cached_tokens": 0,
+      "input_price_cny_per_million": 2,
+      "output_price_cny_per_million": 8,
+      "estimated_cny_or_failure_reserve": 0.001456,
+      "usage_known": true
+    },
+    {
+      "id": "future_p06_03",
+      "prompt_tokens": 310,
+      "completion_tokens": 86,
+      "cached_tokens": 0,
+      "input_price_cny_per_million": 2,
+      "output_price_cny_per_million": 8,
+      "estimated_cny_or_failure_reserve": 0.001308,
+      "usage_known": true
+    },
+    {
+      "id": "future_p06_05",
+      "prompt_tokens": 310,
+      "completion_tokens": 135,
+      "cached_tokens": 0,
+      "input_price_cny_per_million": 2,
+      "output_price_cny_per_million": 8,
+      "estimated_cny_or_failure_reserve": 0.0017,
+      "usage_known": true
+    },
+    {
+      "id": "future_p06_07",
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "cached_tokens": null,
+      "input_price_cny_per_million": 4,
+      "output_price_cny_per_million": 16,
+      "estimated_cny_or_failure_reserve": 0.051968,
+      "usage_known": false
+    },
+    {
+      "id": "future_p07_00",
+      "prompt_tokens": 316,
+      "completion_tokens": 127,
+      "cached_tokens": 0,
+      "input_price_cny_per_million": 2,
+      "output_price_cny_per_million": 8,
+      "estimated_cny_or_failure_reserve": 0.001648,
+      "usage_known": true
+    },
+    {
+      "id": "future_p07_01",
+      "prompt_tokens": 314,
+      "completion_tokens": 72,
+      "cached_tokens": 0,
+      "input_price_cny_per_million": 2,
+      "output_price_cny_per_million": 8,
+      "estimated_cny_or_failure_reserve": 0.001204,
+      "usage_known": true
+    },
+    {
+      "id": "future_p07_02",
+      "prompt_tokens": 316,
+      "completion_tokens": 125,
+      "cached_tokens": 0,
+      "input_price_cny_per_million": 2,
+      "output_price_cny_per_million": 8,
+      "estimated_cny_or_failure_reserve": 0.001632,
+      "usage_known": true
+    },
+    {
+      "id": "future_p07_03",
+      "prompt_tokens": 314,
+      "completion_tokens": 110,
+      "cached_tokens": 0,
+      "input_price_cny_per_million": 2,
+      "output_price_cny_per_million": 8,
+      "estimated_cny_or_failure_reserve": 0.001508,
+      "usage_known": true
+    },
+    {
+      "id": "future_p07_04",
+      "prompt_tokens": 316,
+      "completion_tokens": 82,
+      "cached_tokens": 0,
+      "input_price_cny_per_million": 2,
+      "output_price_cny_per_million": 8,
+      "estimated_cny_or_failure_reserve": 0.001288,
+      "usage_known": true
+    },
+    {
+      "id": "future_p07_05",
+      "prompt_tokens": 314,
+      "completion_tokens": 77,
+      "cached_tokens": 0,
+      "input_price_cny_per_million": 2,
+      "output_price_cny_per_million": 8,
+      "estimated_cny_or_failure_reserve": 0.001244,
+      "usage_known": true
+    },
+    {
+      "id": "future_p07_06",
+      "prompt_tokens": 316,
+      "completion_tokens": 96,
+      "cached_tokens": 0,
+      "input_price_cny_per_million": 2,
+      "output_price_cny_per_million": 8,
+      "estimated_cny_or_failure_reserve": 0.0014,
+      "usage_known": true
+    },
+    {
+      "id": "probe_p00_00",
+      "prompt_tokens": 308,
+      "completion_tokens": 140,
+      "cached_tokens": 0,
+      "input_price_cny_per_million": 2,
+      "output_price_cny_per_million": 8,
+      "estimated_cny_or_failure_reserve": 0.001736,
+      "usage_known": true
+    },
+    {
+      "id": "probe_p00_01",
+      "prompt_tokens": 306,
+      "completion_tokens": 291,
+      "cached_tokens": 256,
+      "input_price_cny_per_million": 3,
+      "output_price_cny_per_million": 14,
+      "estimated_cny_or_failure_reserve": 0.004377600000000001,
+      "usage_known": true
+    },
+    {
+      "id": "probe_p01_00",
+      "prompt_tokens": 314,
+      "completion_tokens": 179,
+      "cached_tokens": 0,
+      "input_price_cny_per_million": 2,
+      "output_price_cny_per_million": 8,
+      "estimated_cny_or_failure_reserve": 0.00206,
+      "usage_known": true
+    },
+    {
+      "id": "probe_p01_01",
+      "prompt_tokens": 312,
+      "completion_tokens": 164,
+      "cached_tokens": 0,
+      "input_price_cny_per_million": 2,
+      "output_price_cny_per_million": 8,
+      "estimated_cny_or_failure_reserve": 0.001936,
+      "usage_known": true
+    },
+    {
+      "id": "probe_p02_00",
+      "prompt_tokens": 307,
+      "completion_tokens": 157,
+      "cached_tokens": 0,
+      "input_price_cny_per_million": 2,
+      "output_price_cny_per_million": 8,
+      "estimated_cny_or_failure_reserve": 0.00187,
+      "usage_known": true
+    },
+    {
+      "id": "probe_p02_01",
+      "prompt_tokens": 305,
+      "completion_tokens": 58,
+      "cached_tokens": 0,
+      "input_price_cny_per_million": 2,
+      "output_price_cny_per_million": 8,
+      "estimated_cny_or_failure_reserve": 0.001074,
+      "usage_known": true
+    },
+    {
+      "id": "probe_p03_00",
+      "prompt_tokens": 313,
+      "completion_tokens": 230,
+      "cached_tokens": 0,
+      "input_price_cny_per_million": 3,
+      "output_price_cny_per_million": 14,
+      "estimated_cny_or_failure_reserve": 0.004159,
+      "usage_known": true
+    },
+    {
+      "id": "probe_p03_01",
+      "prompt_tokens": 311,
+      "completion_tokens": 51,
+      "cached_tokens": 0,
+      "input_price_cny_per_million": 2,
+      "output_price_cny_per_million": 8,
+      "estimated_cny_or_failure_reserve": 0.00103,
+      "usage_known": true
+    },
+    {
+      "id": "probe_p04_00",
+      "prompt_tokens": 307,
+      "completion_tokens": 108,
+      "cached_tokens": 0,
+      "input_price_cny_per_million": 2,
+      "output_price_cny_per_million": 8,
+      "estimated_cny_or_failure_reserve": 0.001478,
+      "usage_known": true
+    },
+    {
+      "id": "probe_p04_01",
+      "prompt_tokens": 305,
+      "completion_tokens": 45,
+      "cached_tokens": 0,
+      "input_price_cny_per_million": 2,
+      "output_price_cny_per_million": 8,
+      "estimated_cny_or_failure_reserve": 0.00097,
+      "usage_known": true
+    },
+    {
+      "id": "probe_p05_00",
+      "prompt_tokens": 310,
+      "completion_tokens": 211,
+      "cached_tokens": 0,
+      "input_price_cny_per_million": 3,
+      "output_price_cny_per_million": 14,
+      "estimated_cny_or_failure_reserve": 0.003884,
+      "usage_known": true
+    },
+    {
+      "id": "probe_p05_01",
+      "prompt_tokens": 308,
+      "completion_tokens": 95,
+      "cached_tokens": 0,
+      "input_price_cny_per_million": 2,
+      "output_price_cny_per_million": 8,
+      "estimated_cny_or_failure_reserve": 0.001376,
+      "usage_known": true
+    },
+    {
+      "id": "probe_p06_00",
+      "prompt_tokens": 312,
+      "completion_tokens": 83,
+      "cached_tokens": 0,
+      "input_price_cny_per_million": 2,
+      "output_price_cny_per_million": 8,
+      "estimated_cny_or_failure_reserve": 0.001288,
+      "usage_known": true
+    },
+    {
+      "id": "probe_p06_01",
+      "prompt_tokens": 310,
+      "completion_tokens": 148,
+      "cached_tokens": 0,
+      "input_price_cny_per_million": 2,
+      "output_price_cny_per_million": 8,
+      "estimated_cny_or_failure_reserve": 0.001804,
+      "usage_known": true
+    },
+    {
+      "id": "probe_p07_00",
+      "prompt_tokens": 316,
+      "completion_tokens": 135,
+      "cached_tokens": 0,
+      "input_price_cny_per_million": 2,
+      "output_price_cny_per_million": 8,
+      "estimated_cny_or_failure_reserve": 0.001712,
+      "usage_known": true
+    },
+    {
+      "id": "probe_p07_01",
+      "prompt_tokens": 314,
+      "completion_tokens": 73,
+      "cached_tokens": 0,
+      "input_price_cny_per_million": 2,
+      "output_price_cny_per_million": 8,
+      "estimated_cny_or_failure_reserve": 0.001212,
+      "usage_known": true
+    }
+  ]
+}

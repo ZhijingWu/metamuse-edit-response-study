@@ -1,0 +1,29 @@
+{
+  "utc": "2026-10-20T01:43:32Z",
+  "before_script_sha256": "02b99796e9753f59221ccb2b49227dc23fdeb8c6263c9396658e4346844568dc",
+  "after_script_sha256": "b552591ef99558f2dd3cee53d1e90b8a3cc5fae8869dcdf6295c4f4aed16e8ca",
+  "records": [
+    {
+      "id": "probe_p00_00",
+      "old_valid": false,
+      "new_valid": true
+    },
+    {
+      "id": "probe_p04_01",
+      "old_valid": true,
+      "new_valid": true
+    },
+    {
+      "id": "probe_p05_00",
+      "old_valid": false,
+      "new_valid": true
+    },
+    {
+      "id": "probe_p07_01",
+      "old_valid": true,
+      "new_valid": true
+    }
+  ],
+  "paid_calls": 0,
+  "reason": "Extract a unique fenced Python block even when prose precedes it; permit bounded numeric bases up to the existing 1e12 magnitude limit in power expressions. Exponents remain capped at 4. All original records/config/script preserved in pre_parser_fix and result_parser_v1.json. No policy or workload change."
+}

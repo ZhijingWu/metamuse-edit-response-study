@@ -1,0 +1,11 @@
+{
+  "attempts": 60,
+  "http_successes": 59,
+  "valid_programs": 58,
+  "cost_cny_conservative": 0.237128,
+  "unknown_usage_calls": 1,
+  "max_reserved_cny": 3.11808,
+  "successful_edit_limit": 128,
+  "authorized_usd_limit": 25,
+  "usd_upper_bound_at_1_to_1": 0.237128
+}

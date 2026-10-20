@@ -1,0 +1,8 @@
+We use a scoring function that prioritizes bins with less remaining space, weighted by the item's size. This encourages placing larger items into tighter fits, while smaller items have a flattened preference, allowing them to act as better "fillers". By adding a small term based on the bin index, we deterministically break ties in favor of the earliest available bin.
+
+```python
+def score(remaining, item, capacity, index, n_bins):
+    tightness = (capacity - remaining) / capacity
+    weight = item / capacity
+    return tightness * weight + tightness * tightness * (1.0 - weight) + 1.0 / (index + 2)
+```

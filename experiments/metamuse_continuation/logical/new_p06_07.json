@@ -1,0 +1,79 @@
+{
+  "logical_id": "new_p06_07",
+  "parent": "p06",
+  "slot": 7,
+  "edit": "alternative",
+  "attempt_ids": [
+    "a057"
+  ],
+  "final_attempt_id": "a057",
+  "evaluation": {
+    "valid": true,
+    "bins": [
+      115,
+      113,
+      104,
+      64,
+      63,
+      66,
+      103,
+      99,
+      110,
+      119,
+      118,
+      119
+    ],
+    "scores": [
+      11.650485436893204,
+      14.141414141414142,
+      9.473684210526315,
+      4.918032786885246,
+      5.0,
+      4.761904761904762,
+      9.574468085106384,
+      8.791208791208792,
+      10.0,
+      35.22727272727273,
+      34.09090909090909,
+      33.70786516853933
+    ],
+    "mean": 15.111437100055,
+    "action_hashes": [
+      "1e390f98d35ae7c9996d0d1e2c46ce5bebd3e43f69a281e03568f34ba718f562",
+      "d81e987e0967d599d7c6d0357cbe95135dcf98c32e4b8609cf6a5597527a1226",
+      "fe0d9a353a03a98d96eedaa8638144640b4ba0c6b716a69df9acfb6ad67dc0d8",
+      "e18cbac937b26e4fa55aaedf4a46e32fa0fea427691aab63a1ddd7870e4505c1",
+      "af04a74c478c45206c04fb4c5affd005ab59d135fdf727829b29a356056358b7",
+      "cb73c330653eb79eaaa0bb6b1f6a5ef7eba7550db92fcdd15a5ceaecb232cecf",
+      "0312cbc7ad39db32c25aecc984ceb2f1e6ff8468bc4b877597a2bebc3a9eebb6",
+      "331be806268ae2e3c017521288d7644206a06dbb4c29e87c8a0dd5e0334d2a62",
+      "167ff84158ef03f9de7fcd871ecb234b122729ca2d3dcf127f283382adbee21b",
+      "f89c0fe4f3069dfd801e3e941fe421a66e6609109bccdf87561328841b96b15c",
+      "738813718d934363e2c27b0536d13d1bd0501aa7044cf1148e9c5df6b8563f0c",
+      "70a39b0131350c5c9c4ed9069ad2d9a033eab48e3df0533f206909096964fc6e"
+    ],
+    "features": {
+      "Module": 1,
+      "FunctionDef": 1,
+      "arguments": 1,
+      "Assign": 2,
+      "Return": 1,
+      "arg": 5,
+      "Name": 14,
+      "BinOp": 12,
+      "Store": 2,
+      "Sub": 6,
+      "Div": 1,
+      "Add": 2,
+      "Load": 12,
+      "Mult": 2,
+      "Constant": 5,
+      "Call": 2,
+      "UnaryOp": 1,
+      "USub": 1,
+      "FloorDiv": 1
+    },
+    "seconds": 0.16046770000139077
+  },
+  "program_sha256": "5a43fbadab0f4f0abd34fb1a4461390e33c9ded95ffb53faab63dc745e8c1ecf"
+}

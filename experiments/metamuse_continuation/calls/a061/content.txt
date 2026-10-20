@@ -1,0 +1,9 @@
+The parent scores bins by the future slack (`remaining - item`), which is a purely linear metric equivalent to Best-Fit. This can scatter items and create bins with incompatible leftover capacities. 
+
+We can improve this by applying a nonlinear penalty to bins that would have very small remaining capacities after packing, as such bins are hard to fill later. We subtract `1.0 / (remaining - item + 1.0)` from the slack. This creates a steep penalty for near-zero slack, strongly preferring to perfectly fill a bin (where the penalty vanishes) or to pack into a bin that retains large, usable space, thereby reducing fragmentation.
+
+```python
+def score(remaining, item, capacity, index, n_bins):
+    slack = remaining - item
+    return slack - 1.0 / (slack + 1.0)
+```

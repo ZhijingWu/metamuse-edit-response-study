@@ -1,0 +1,6 @@
+The parent algorithm ignored both `remaining` and `item`, simply preferring the lowest index bin (a LIFO-like strategy that generally performs poorly for bin packing). A targeted, nonlinear improvement reconnects the scoring to the bin-packing rationale by preferring bins that leave the least remaining capacity (Best Fit), while applying a nonlinear exponential penalty to the bin index to break ties and favor older bins (lower indices) in a much softer way than the parent's hyperbolic drop.
+
+```python
+def score(remaining, item, capacity, index, n_bins):
+    return 1.0 / (remaining + 1) + 0.01 * (1.0 - exp(-0.5 * (index + 1)))
+```

@@ -1,0 +1,7 @@
+def score(remaining, item, capacity, index, n_bins):
+    used = capacity - remaining
+    new_used = used + item
+    fit = remaining - item
+    spread = (new_used - 50) * (new_used - 50)
+    pop = used * used
+    return (spread - pop) - fit * 3

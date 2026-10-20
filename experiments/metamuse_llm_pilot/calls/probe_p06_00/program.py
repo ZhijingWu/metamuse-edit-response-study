@@ -1,0 +1,9 @@
+def score(remaining, item, capacity, index, n_bins):
+    gap = remaining - item
+    d = abs(gap - 20)
+    u = capacity - remaining
+    if gap <= 0:
+        return -1e8
+    if gap < 25:
+        return -d * d
+    return -d - 0.001 * u

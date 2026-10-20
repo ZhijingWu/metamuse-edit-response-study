@@ -1,0 +1,18 @@
+def score(remaining, item, capacity, index, n_bins):
+    fill = (capacity - remaining) / capacity
+    r = remaining / capacity
+    i = item / capacity
+    if r >= 0.5:
+        if abs(remaining - item) < 1.0:
+            return 1e8 - index
+        if remaining - item < 0.05 * capacity:
+            return 1e6 * (1.0 - r) - index
+        return 1e3 * (1.0 - r) - index
+    elif r > 0.15:
+        if i > r:
+            return -1e9 - index
+        return fill ** 2 - index
+    else:
+        if i > r:
+            return -1e9 - index
+        return fill ** 4 - index

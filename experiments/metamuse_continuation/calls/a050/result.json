@@ -1,0 +1,34 @@
+{
+  "logical_id": "new_p03_06",
+  "parent": "p03",
+  "slot": 6,
+  "edit": "local",
+  "attempt_id": "a050",
+  "retry": false,
+  "http_success": true,
+  "transport_failure": false,
+  "usage": {
+    "completion_tokens": 150,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 313,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 463
+  },
+  "nominal_cny": 0.001826,
+  "conservative_cny": 0.003652,
+  "evaluation": {
+    "valid": false,
+    "reason": "Invalid: exp bound",
+    "seconds": 0.0020438999999896623
+  },
+  "http_status": 200,
+  "returned_model": "glm-4.7",
+  "finish_reason": "stop",
+  "program_sha256": "ef6e88b5469aba4e560feee562651876393f5ee145cdbb3a539200f78751411c",
+  "wall_seconds": 13.157799599999635,
+  "finished_utc": "2026-10-20T02:34:29Z"
+}

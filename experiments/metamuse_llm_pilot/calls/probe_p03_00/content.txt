@@ -1,0 +1,14 @@
+The parent heuristic scores bins based purely on their index, heavily favoring the earliest bins (a greedy First Fit style priority). It ignores the remaining capacity and item size entirely, which limits its packing efficiency. 
+
+By incorporating the relative remaining capacity, we can strongly prioritize bins that will leave the smallest possible leftover space (Best Fit), but we conditionally break ties or soften the score when the remaining space is small. This ensures dense packing while retaining a recognizable inverse-index tiebreaker to prefer older bins. The conditional `if r > 0.05` applies a nonlinear penalty to bins that would become very tight, reducing fragmentation on sequences like Weibull or complementary sizes.
+
+```python
+def score(remaining, item, capacity, index, n_bins):
+    r = remaining / capacity
+    s = item / capacity
+    if r > 0.05:
+        p = (1.0 - r) ** 2
+    else:
+        p = (1.0 - r) ** 0.5
+    return p + 1.0 / (index + 1) - s * r
+```

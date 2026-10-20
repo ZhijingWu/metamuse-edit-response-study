@@ -1,0 +1,22 @@
+{
+  "results": {
+    "runs": 270,
+    "rows": 32400,
+    "budget_and_monotonicity": "pass",
+    "registered_hashes": "pass"
+  },
+  "selective_results_corrected": {
+    "runs": 150,
+    "rows": 18000,
+    "budget_and_monotonicity": "pass",
+    "registered_hashes": "pass"
+  },
+  "reports": {
+    "METAMUSE_METHOD_AND_CODE_ANALYSIS.md": 1236,
+    "ALGORITHM_DISCOVERY_NOVELTY_MAP.md": 968,
+    "TOP_MECHANISM_CANDIDATES.md": 890,
+    "SELECTED_MECHANISM_DESIGN.md": 970,
+    "MINIMAL_PILOT_RESULTS_OR_PROTOCOL.md": 1585,
+    "FRANCIS_YAN_METAMUSE_RESEARCH_DECISION.md": 867
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "logical_id": "new_p00_05",
+  "parent": "p00",
+  "slot": 5,
+  "edit": "alternative",
+  "attempt_ids": [
+    "a048"
+  ],
+  "final_attempt_id": "a048",
+  "evaluation": {
+    "valid": true,
+    "bins": [
+      123,
+      121,
+      111,
+      66,
+      68,
+      70,
+      106,
+      101,
+      115,
+      119,
+      118,
+      120
+    ],
+    "scores": [
+      19.41747572815534,
+      22.22222222222222,
+      16.842105263157894,
+      8.19672131147541,
+      13.333333333333334,
+      11.11111111111111,
+      12.76595744680851,
+      10.989010989010989,
+      15.0,
+      35.22727272727273,
+      34.09090909090909,
+      34.831460674157306
+    ],
+    "mean": 19.50229832480116,
+    "action_hashes": [
+      "657f20fdb4a2123b235edb846ef6dcfe9aa9486b92f601a9c5e816f4cf6616c0",
+      "ce05adb57f7544a1edbe7c215026188018980498712b6df6c7246375bb076cfc",
+      "193bac3f09a0855cc3b8b7c0bd5bd65d7d10f202be97ae7111f4dd2dd836e656",
+      "db488392ed28d9f2bf6be362e1f5498552fced5e6c14203ec59e3dc91aab3135",
+      "b621de81f1e7208c04e64aa6b8e7d682d5e8c9545ddf107ee1277a3a6d41ef65",
+      "a823d024a6b9a3a8af7a888b558a1e4114ee7e3d2f5434e22c664281f855f40e",
+      "b848e172798b1ebca4837d2348f6456e2f2b0ed961c808e13937fd51b683e525",
+      "8951b2247e061b867301f21c40590363eb4d0e07e9eadc3863fc2629b217111d",
+      "16d5760dc970d3e9013db96761f8143872203f08120e14631944db7b8fd8a0ba",
+      "1ceee6328ad33c8c452cff2ed74f446699439ada0dcff4c878b2734500aa0abe",
+      "bfba22942d9756bce1198e26d0ed766d34f08b50b200a719b6d0ee3ce984a804",
+      "2d941bca8851ee55bfa2fad943f181da7406605885c9311458dc54037c737b79"
+    ],
+    "features": {
+      "Module": 1,
+      "FunctionDef": 1,
+      "arguments": 1,
+      "Assign": 8,
+      "Return": 1,
+      "arg": 5,
+      "Name": 26,
+      "BinOp": 15,
+      "Store": 8,
+      "Sub": 4,
+      "Div": 4,
+      "Pow": 2,
+      "Constant": 6,
+      "Add": 2,
+      "Mult": 3,
+      "Load": 18
+    },
+    "seconds": 2.3516540999989957
+  },
+  "program_sha256": "1ce6f65de2cde5d6f4c8fb2acb2be1125e939ca405f296461211fa2045291040"
+}

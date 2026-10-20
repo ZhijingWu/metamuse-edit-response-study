@@ -1,0 +1,77 @@
+{
+  "logical_id": "new_p04_03",
+  "parent": "p04",
+  "slot": 3,
+  "edit": "alternative",
+  "attempt_ids": [
+    "a027"
+  ],
+  "final_attempt_id": "a027",
+  "evaluation": {
+    "valid": true,
+    "bins": [
+      112,
+      112,
+      102,
+      62,
+      62,
+      65,
+      98,
+      93,
+      107,
+      119,
+      118,
+      119
+    ],
+    "scores": [
+      8.737864077669903,
+      13.131313131313131,
+      7.368421052631579,
+      1.639344262295082,
+      3.3333333333333335,
+      3.1746031746031744,
+      4.25531914893617,
+      2.197802197802198,
+      7.0,
+      35.22727272727273,
+      34.09090909090909,
+      33.70786516853933
+    ],
+    "mean": 12.82200394710881,
+    "action_hashes": [
+      "54f695375b46a2ec7c274b356dc07067af81a7e98f68af1f2678317ac35b9aae",
+      "f02d779ae95611c80696a93e92c46c0b2454968b0e80055ae957f8298d7478d7",
+      "7c0385c58ecd35c20e9edd8824015af924bddf474f06bed15ba4926387188a15",
+      "f335ac86ac49315591b7172647bd4bd3ccdc74c64bf5df2e56fbefd327327d6b",
+      "ac1f3543215923e78795fd3bd5205b861fdd7a8b3f6e7bab3e518b430f09e480",
+      "4bd81fb8ffc925d330244944a3b63b3ed9b1739ea70ffd98e5427e18c4631c6f",
+      "f31b7db1684e8b6664a10242ec29f9b46bed9b8897a6f279ff95f8b3d17a7de2",
+      "2749a6f8f8d6afab9a5f8b1bf8440c8814bffeaa80a6ce96437afc6b4937a39c",
+      "f463edb0d956b9be8691c45e493e3063039e52844e4a2df26a1e2b4bd49bf118",
+      "f89c0fe4f3069dfd801e3e941fe421a66e6609109bccdf87561328841b96b15c",
+      "16168a0491804c57b703cdf488cac86bc53176165c43f56931c6b348d0eeee9c",
+      "70a39b0131350c5c9c4ed9069ad2d9a033eab48e3df0533f206909096964fc6e"
+    ],
+    "features": {
+      "Module": 1,
+      "FunctionDef": 1,
+      "arguments": 1,
+      "Assign": 2,
+      "Return": 1,
+      "arg": 5,
+      "Name": 9,
+      "BinOp": 7,
+      "Store": 2,
+      "Sub": 3,
+      "Div": 1,
+      "UnaryOp": 1,
+      "Load": 7,
+      "USub": 1,
+      "Mult": 2,
+      "Constant": 3,
+      "Add": 1
+    },
+    "seconds": 0.08347270000012941
+  },
+  "program_sha256": "ed8f99e7f14dbc8f3e2aea592c56b98c513092cb9b6d8bdb4eb7e2d1a2e1b00b"
+}

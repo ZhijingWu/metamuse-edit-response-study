@@ -1,0 +1,80 @@
+{
+  "logical_id": "new_p07_00",
+  "parent": "p07",
+  "slot": 0,
+  "edit": "local",
+  "attempt_ids": [
+    "a001"
+  ],
+  "final_attempt_id": "a001",
+  "evaluation": {
+    "valid": true,
+    "bins": [
+      123,
+      118,
+      111,
+      67,
+      68,
+      70,
+      106,
+      101,
+      116,
+      119,
+      118,
+      120
+    ],
+    "scores": [
+      19.41747572815534,
+      19.19191919191919,
+      16.842105263157894,
+      9.836065573770492,
+      13.333333333333334,
+      11.11111111111111,
+      12.76595744680851,
+      10.989010989010989,
+      16.0,
+      35.22727272727273,
+      34.09090909090909,
+      34.831460674157306
+    ],
+    "mean": 19.469718427467164,
+    "action_hashes": [
+      "ad4cff8ad31e0f8626bdb34bd36c31a74ca3a44162dcfa121e501c9fa42c171b",
+      "868abda8f1ee939eb8a73ceaba0ed6b35f1baa1ef6fac013cb201328465f488f",
+      "7c951aa1322843971ca458999700bf5ed3041c22c5ce3f430fb82ba2a4bcf2bb",
+      "c995fff97e145a14bc54a10591b84061152757298ce1c9c3f52c89c7326b32ab",
+      "bdbe66c80a0bc5c3966623dc8212294e0c3dc314e8376183d1b7dc0551048e0d",
+      "a244f633985963c9341edde6891ac3a6d50dec01ca291b7f6f65984894e1ddd9",
+      "767fb71e28aa267419363d10ae3a479a781d6be451beaf24b47585e2e3da8646",
+      "9b921156ad1a55637096e3b3a5b449315f5333702eee69d66e093559e45daae1",
+      "92ddb96427adf16353e05263d7e8e1c5ace045dd11d247460718569bb54f2bcd",
+      "fb6c14f9fdfcd0d2b3917e8ddc6bbf421e12b67a1c3b2472c738a9fdd98764a0",
+      "d3c72dcb68682fd238dfe292dcae8de133dbd57fcc05772d329d75426e5767ab",
+      "9c638f07c2fb76a61b142616fa6400eab0a7b06e93afc399e49f2f47e6c57f32"
+    ],
+    "features": {
+      "Module": 1,
+      "FunctionDef": 1,
+      "arguments": 1,
+      "Assign": 3,
+      "If": 2,
+      "arg": 5,
+      "Name": 19,
+      "BinOp": 11,
+      "Compare": 2,
+      "Return": 3,
+      "Store": 3,
+      "Sub": 6,
+      "Mult": 3,
+      "Lt": 2,
+      "Constant": 5,
+      "Load": 16,
+      "UnaryOp": 3,
+      "USub": 3,
+      "Div": 1,
+      "Add": 1
+    },
+    "seconds": 1.4298108000002685
+  },
+  "program_sha256": "fd73e7cc80fff8d0b7e68b13ad24c06f812cfdc5e083fab3a16a785ce6d5d3a4"
+}

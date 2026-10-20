@@ -1,0 +1,10 @@
+def score(remaining, item, capacity, index, n_bins):
+    space = remaining - item
+    near = capacity - 20
+    if space < 20:
+        return -abs(space - 0) * 4
+    if space < near:
+        return -abs(space - near) * 2
+    if space <= near:
+        return -abs(space - near)
+    return -abs(space - near) - (space - near) ** 2

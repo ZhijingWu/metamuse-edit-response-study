@@ -1,0 +1,15 @@
+```python
+def score(remaining, item, capacity, index, n_bins):
+    x = capacity - remaining
+    p = remaining - item
+    t = x + item
+    f = abs(p - 14.0)
+    q = abs(t - 70.0)
+    if x <= 1:
+        s = 2.0 / f
+    elif x <= 6:
+        s = 0.8 / f + 0.2 / (q + 1.0)
+    else:
+        s = 0.5 / (q + 1.0) + 0.5 / f
+    return s - 0.00001 * index
+```

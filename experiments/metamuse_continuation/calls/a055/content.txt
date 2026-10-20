@@ -1,0 +1,10 @@
+The parent heuristic `-(remaining - item)` prioritizes bins where the item is a tight fit (least remaining space after packing), equivalent to `item - remaining`. 
+
+We can improve this by introducing a nonlinear penalty for bins where the item fits loosely. By applying a negative quadratic term scaled by the available space, we more aggressively prioritize tight fits for bins with more room, allowing moderately filled bins to remain available for larger future items. This targeted change retains the core "best-fit" rationale but adds a nonlinear, state-aware curvature.
+
+```python
+def score(remaining, item, capacity, index, n_bins):
+    gap = remaining - item
+    fill = capacity - remaining
+    return item - fill * gap * gap / (capacity * capacity)
+```

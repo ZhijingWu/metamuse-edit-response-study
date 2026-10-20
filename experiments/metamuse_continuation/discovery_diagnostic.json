@@ -1,0 +1,100 @@
+{
+  "per_parent": [
+    {
+      "parent": "p00",
+      "future_attempts": 8,
+      "future_outputs": 8,
+      "future_valid": 8,
+      "future_parent_improvements": 0,
+      "future_global_improvements": 0,
+      "future_best_train": 12.82200394710881,
+      "old_probe_valid": 2
+    },
+    {
+      "parent": "p01",
+      "future_attempts": 8,
+      "future_outputs": 8,
+      "future_valid": 7,
+      "future_parent_improvements": 1,
+      "future_global_improvements": 1,
+      "future_best_train": 12.689728814833678,
+      "old_probe_valid": 2
+    },
+    {
+      "parent": "p02",
+      "future_attempts": 8,
+      "future_outputs": 8,
+      "future_valid": 8,
+      "future_parent_improvements": 4,
+      "future_global_improvements": 0,
+      "future_best_train": 12.82200394710881,
+      "old_probe_valid": 2
+    },
+    {
+      "parent": "p03",
+      "future_attempts": 8,
+      "future_outputs": 8,
+      "future_valid": 6,
+      "future_parent_improvements": 6,
+      "future_global_improvements": 0,
+      "future_best_train": 12.82200394710881,
+      "old_probe_valid": 2
+    },
+    {
+      "parent": "p04",
+      "future_attempts": 8,
+      "future_outputs": 8,
+      "future_valid": 7,
+      "future_parent_improvements": 2,
+      "future_global_improvements": 0,
+      "future_best_train": 12.82200394710881,
+      "old_probe_valid": 2
+    },
+    {
+      "parent": "p05",
+      "future_attempts": 8,
+      "future_outputs": 8,
+      "future_valid": 7,
+      "future_parent_improvements": 2,
+      "future_global_improvements": 0,
+      "future_best_train": 12.82200394710881,
+      "old_probe_valid": 2
+    },
+    {
+      "parent": "p06",
+      "future_attempts": 8,
+      "future_outputs": 8,
+      "future_valid": 7,
+      "future_parent_improvements": 4,
+      "future_global_improvements": 0,
+      "future_best_train": 12.82200394710881,
+      "old_probe_valid": 1
+    },
+    {
+      "parent": "p07",
+      "future_attempts": 8,
+      "future_outputs": 8,
+      "future_valid": 8,
+      "future_parent_improvements": 3,
+      "future_global_improvements": 0,
+      "future_best_train": 12.82200394710881,
+      "old_probe_valid": 2
+    }
+  ],
+  "fresh_global_improving_candidates": [
+    "new_p01_02"
+  ],
+  "initial_seed_new_test": {
+    "p00": 6.793142992942656,
+    "p01": 6.793142992942656,
+    "p02": 7.742020409960331,
+    "p03": 7.742020409960331,
+    "p04": 16.927163242115018,
+    "p05": 16.927163242115018,
+    "p06": 15.515435238985416,
+    "p07": 15.515435238985416
+  },
+  "old_champion_new_test": 6.800137850776896,
+  "old_champion_not_used_in_selection": true,
+  "new_valid_fraction": 0.90625
+}

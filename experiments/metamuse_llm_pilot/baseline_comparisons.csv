@@ -1,0 +1,15 @@
+view,method,mean_heldout,mean_train,mean_attempts,mean_cost_cny,pool_exhaustion_fraction,mean_eval_seconds,mean_replayed_request_wall_seconds,mean_tier_aware_list_cost_cny,warning
+attempts,performance,7.261433243575846,12.82200394710881,16,0.0492,1,8.436658399999942,135.44572799999878,0.0246,balanced 48-call bank; pool censoring prevents full 48-per-policy endpoint
+attempts,random,7.133017943029398,12.759834634939498,16,0.0463576,1,6.694730416000521,132.03580822199885,0.022765104,balanced 48-call bank; pool censoring prevents full 48-per-policy endpoint
+attempts,neutral_drift,7.157608106963824,12.771739396844259,16,0.04661424,1,6.748004205000507,132.90728640099877,0.022954864,balanced 48-call bank; pool censoring prevents full 48-per-policy endpoint
+attempts,structural,7.261433243575846,12.82200394710881,16,0.05060800000000001,1,8.886102199999186,147.7856873999981,0.025304,balanced 48-call bank; pool censoring prevents full 48-per-policy endpoint
+attempts,response,6.988209199859999,12.689728814833678,32,0.09799199999999997,1,16.06272960000024,258.39394009999796,0.052883400000000004,balanced 48-call bank; pool censoring prevents full 48-per-policy endpoint
+attempts,probe_control,7.261433243575846,12.82200394710881,32,0.10371999999999997,1,15.320422699996925,272.5751427999985,0.0565666,balanced 48-call bank; pool censoring prevents full 48-per-policy endpoint
+attempts,offspring_quality,7.261433243575846,12.82200394710881,32,0.10467999999999997,1,15.684177999996791,276.78285889999916,0.056637,balanced 48-call bank; pool censoring prevents full 48-per-policy endpoint
+priced,performance,7.261433243575846,12.82200394710881,16,0.0492,1,8.436658399999942,135.44572799999878,0.0246,balanced 48-call bank; pool censoring prevents full 48-per-policy endpoint
+priced,random,7.133017943029398,12.759834634939498,16,0.0463576,1,6.694730416000521,132.03580822199885,0.022765104,balanced 48-call bank; pool censoring prevents full 48-per-policy endpoint
+priced,neutral_drift,7.157608106963824,12.771739396844259,16,0.04661424,1,6.748004205000507,132.90728640099877,0.022954864,balanced 48-call bank; pool censoring prevents full 48-per-policy endpoint
+priced,structural,7.261433243575846,12.82200394710881,16,0.05060800000000001,1,8.886102199999186,147.7856873999981,0.025304,balanced 48-call bank; pool censoring prevents full 48-per-policy endpoint
+priced,response,6.988209199859999,12.689728814833678,32,0.09799199999999997,1,16.06272960000024,258.39394009999796,0.052883400000000004,balanced 48-call bank; pool censoring prevents full 48-per-policy endpoint
+priced,probe_control,7.261433243575846,12.82200394710881,30.21,0.09830807999999998,0,14.331252688997,257.6928755919987,0.05386064,balanced 48-call bank; pool censoring prevents full 48-per-policy endpoint
+priced,offspring_quality,7.261433243575846,12.82200394710881,29.88,0.09816331999999997,0,14.56386127999678,258.50443966299923,0.053427812,balanced 48-call bank; pool censoring prevents full 48-per-policy endpoint

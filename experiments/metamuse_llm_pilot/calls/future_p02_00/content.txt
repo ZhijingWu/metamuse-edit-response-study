@@ -1,0 +1,13 @@
+```python
+def score(remaining, item, capacity, index, n_bins):
+    fill = (capacity - remaining) / capacity
+    r = remaining / item
+    f = fill ** 2
+    if r < 1.2:
+        p = f + (1 - r) * 2.0
+    elif r < 2.5:
+        p = f + (1 - r) * 0.5
+    else:
+        p = f - r * 0.08
+    return p - index * 0.001
+```

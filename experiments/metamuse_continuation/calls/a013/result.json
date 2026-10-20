@@ -1,0 +1,32 @@
+{
+  "logical_id": "new_p03_00",
+  "parent": "p03",
+  "slot": 0,
+  "edit": "local",
+  "attempt_id": "a013",
+  "retry": false,
+  "http_success": true,
+  "transport_failure": false,
+  "usage": {
+    "completion_tokens": 153,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 313,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 466
+  },
+  "nominal_cny": 0.00185,
+  "conservative_cny": 0.0037,
+  "evaluation": {
+    "valid": false,
+    "reason": "SyntaxError: unmatched ')' (<unknown>, line 1)"
+  },
+  "http_status": 200,
+  "returned_model": "glm-4.7",
+  "finish_reason": "stop",
+  "wall_seconds": 7.757395700000416,
+  "finished_utc": "2026-10-20T02:28:58Z"
+}

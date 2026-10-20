@@ -1,0 +1,7 @@
+We want to heavily penalize bins that are already nearly full but don't have enough space to perfectly fit the item, while strongly rewarding perfect fits and bins with more free space. We use a combination of the gap (remaining - item), the remaining space, and the item size to create a priority that favors tighter fits without leaving useless slivers.
+
+```python
+def score(remaining, item, capacity, index, n_bins):
+    gap = remaining - item
+    return 1.0 / (gap + 1) - remaining / (capacity * 2.0) + 1.0 / (remaining + 1) - 0.01 * item / capacity
+```

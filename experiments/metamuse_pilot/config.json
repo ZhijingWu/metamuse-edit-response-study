@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "purpose": "Frozen finite-grammar falsification study, not LLM generation or a MetaMuse reproduction",
+  "upstream_sha": "b976a28426268e2f7310b0a8d9c33f3a82496479",
+  "capacity": 100,
+  "items_per_trace": 96,
+  "traces_per_family": 3,
+  "train_seed": 20261020,
+  "test_seed": 20261021,
+  "coefficients": [-2, -1, 0, 1, 2],
+  "archive_size": 8,
+  "initial_pool_size": 8,
+  "evaluation_budget": 120,
+  "search_seeds": 30,
+  "probe_labels": [0, 4],
+  "methods": ["fitness_flat", "performance_flat", "random_flat", "performance", "syntax", "response", "moments", "offspring_quality", "reservoir"],
+  "registration": "Created before first outcome; no parameter changes permitted without a separately labeled revision"
+}

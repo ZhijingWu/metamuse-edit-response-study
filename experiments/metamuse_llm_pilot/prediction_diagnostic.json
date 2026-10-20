@@ -1,0 +1,35 @@
+{
+  "balanced_future_samples_per_parent": 4,
+  "probe_samples_per_parent": 2,
+  "equivalent_pairs": [
+    {
+      "a": "p00",
+      "b": "p01",
+      "probe_useful_rate_difference": 0.0,
+      "independent_future_useful_rate_difference": 0.0,
+      "direction_agrees_when_both_nonzero": null
+    },
+    {
+      "a": "p02",
+      "b": "p03",
+      "probe_useful_rate_difference": -0.5,
+      "independent_future_useful_rate_difference": 0.0,
+      "direction_agrees_when_both_nonzero": null
+    },
+    {
+      "a": "p04",
+      "b": "p05",
+      "probe_useful_rate_difference": -1.0,
+      "independent_future_useful_rate_difference": 0.25,
+      "direction_agrees_when_both_nonzero": false
+    },
+    {
+      "a": "p06",
+      "b": "p07",
+      "probe_useful_rate_difference": 0.0,
+      "independent_future_useful_rate_difference": 0.0,
+      "direction_agrees_when_both_nonzero": null
+    }
+  ],
+  "warning": "Only four pairs; exploratory description, no kernel or significance claim"
+}

@@ -1,0 +1,16 @@
+{
+  "new_api_attempts": 64,
+  "new_api_responses": 64,
+  "valid_responses": 58,
+  "transport_failures": 0,
+  "retry_attempts": 0,
+  "logical_completed": 64,
+  "known_input_tokens": 19832,
+  "known_output_tokens": 7524,
+  "estimated_cny_nominal_plus_failure_reserve": 0.1093558,
+  "estimated_cny_conservative_plus_failure_reserve": 0.199712,
+  "unknown_usage_reserves": 0,
+  "request_wall_seconds": 524.8072473999982,
+  "training_eval_seconds": 21.335902899998473,
+  "total_authorized_reserve_cny": 3.37792
+}

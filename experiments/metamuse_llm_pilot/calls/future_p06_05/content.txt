@@ -1,0 +1,14 @@
+```python
+def score(remaining, item, capacity, index, n_bins):
+    used = capacity - remaining
+    space_after = remaining - item
+    pop = used / 20
+    if space_after == 0:
+        return 10000 - pop * 0.001
+    t = space_after / capacity
+    if space_after < 20:
+        return 200 - t * 10 - pop * 0.01
+    if space_after < 40:
+        return 100 - t * 5 - pop * 0.01
+    return 50 - t - pop * 0.01
+```

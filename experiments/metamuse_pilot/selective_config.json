@@ -1,0 +1,13 @@
+{
+  "stage": "Exploratory mechanism revision after frozen first pilot",
+  "intervention": "Probe only at a current performance-cell collision; preserve a second representative only with an observed matched-edit response difference",
+  "train_seed": 20261022,
+  "test_seed": 20261023,
+  "search_seeds": 30,
+  "evaluation_budget": 120,
+  "archive_size": 8,
+  "initial_pool_size": 8,
+  "probe_labels": [0, 4],
+  "methods": ["performance", "selective_response", "collision_coin", "neutral_drift", "random"],
+  "registration": "Saved before this revision's fresh-bank evaluation; no post-outcome parameter tuning"
+}

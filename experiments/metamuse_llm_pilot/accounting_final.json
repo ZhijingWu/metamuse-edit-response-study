@@ -1,0 +1,36 @@
+{
+  "actual_attempts": 60,
+  "successful_api_responses": 59,
+  "executable_responses": 58,
+  "valid_rate_per_attempt": 0.9666666666666667,
+  "valid_rate_per_completed_response": 0.9830508474576272,
+  "network_failures": 1,
+  "execution_or_parse_failures": 1,
+  "retries": 0,
+  "balanced_comparison_bank_attempts": 48,
+  "interrupted_stage_attempts": 12,
+  "input_tokens_known": 18294,
+  "output_tokens_known": 6999,
+  "cost_cny_upper": 0.237128,
+  "tier_aware_list_price_cny_plus_unknown_reserve": 0.1507174,
+  "cost_cny_list_estimate_plus_unknown_reserve": 0.204836,
+  "unknown_usage_reserved_calls": 1,
+  "request_wall_seconds_sum": 516.1825359999984,
+  "train_execution_seconds_sum": 22.104184099997838,
+  "initial_common_evaluations": 8,
+  "initial_common_eval_seconds": 0.35144020000007004,
+  "distinct_valid_source_hashes": 58,
+  "distinct_valid_training_action_signatures": 33,
+  "distinct_valid_training_score_vectors": 25,
+  "parent_relative_useful_children": 29,
+  "distinct_parent_relative_useful_source_hashes": 29,
+  "distinct_parent_relative_useful_action_signatures": 21,
+  "strict_global_training_improvements": [
+    "future_p06_02"
+  ],
+  "model_aliases": {
+    "glm-4.7": 59
+  },
+  "failure_cost_is_reserved_not_observed_billing": true,
+  "usd_upper_bound_uses_deliberate_1_cny_to_1_usd": true
+}

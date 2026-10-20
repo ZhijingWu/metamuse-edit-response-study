@@ -1,0 +1,31 @@
+{
+  "id": "probe_p06_01",
+  "parent": "p06",
+  "role": "probe",
+  "slot": 1,
+  "edit": "alternative",
+  "http_success": true,
+  "evaluation": {
+    "valid": false,
+    "reason": "ZeroDivisionError: float division by zero",
+    "seconds": 0.0011900999998033512
+  },
+  "usage": {
+    "completion_tokens": 148,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 310,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 458
+  },
+  "cost_cny": 0.003608,
+  "http_status": 200,
+  "returned_model": "glm-4.7",
+  "finish_reason": "stop",
+  "program_sha256": "1f8a4f56970347547252b8cf5891699dc7f0233d3942bda6eac291a6f4808e59",
+  "wall_seconds": 8.094467100000657,
+  "finished_utc": "2026-10-20T01:43:59Z"
+}

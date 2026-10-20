@@ -1,0 +1,7 @@
+The parent simply prefers the earliest bin, ignoring item sizes entirely. A more effective online bin-packing heuristic prioritizes bins where the item leaves the least remaining space (Best Fit), which maximizes bin utilization. To break ties and avoid creating badly-fragmented bins, it also penalizes bins that already have high remaining space. Finally, a small tie-breaker for the earliest bin index ensures deterministic choices.
+
+```python
+def score(remaining, item, capacity, index, n_bins):
+    s = capacity - remaining
+    return 1.0 / (remaining + 1) - 1.0 / (s + 1) - 1e-9 * index
+```

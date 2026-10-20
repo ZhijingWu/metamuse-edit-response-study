@@ -1,0 +1,30 @@
+{
+  "id": "future_p07_04",
+  "parent": "p07",
+  "role": "future",
+  "slot": 4,
+  "edit": "local",
+  "started_utc": "2026-10-20T01:52:06Z",
+  "payload": {
+    "model": "glm-4.7",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You edit deterministic executable online bin-packing heuristics.\nReturn only Python source defining score(remaining, item, capacity, index, n_bins).\nFor each feasible existing bin, this function returns a finite numeric priority;\nthe highest priority wins, ties use the lowest bin index. New bins are forced\nonly when no existing bin fits. capacity=100; remaining>=item>0; indices start at 0.\nUse only numeric constants, local scalar assignments, if/elif/else, return,\narithmetic + - * / // % ** (power at most 4), comparisons, boolean operators,\nconditional expressions, and calls to abs, min, max, exp, log, sqrt.\nNo imports, attributes, subscripts, loops, comprehensions, collections, globals,\nrecursion, randomness, annotations, decorators, strings or extra functions.\nKeep source under 1600 ASCII characters. Avoid division by zero and huge values.\nThe objective is fewer bins on unseen online sequences, not prettier code.\nThe training workload families are uniform, Weibull, complementary and phased\nsizes. No future items or sequence history are available to this scorer.\nProduce a genuinely changed scoring algorithm, not a rename or scaling alone."
+      },
+      {
+        "role": "user",
+        "content": "Improve this parent by making a targeted nonlinear or conditional change to its bin-scoring rule. Retain a recognizable connection to its rationale, but seek better packing.\n\nParent:\ndef score(remaining, item, capacity, index, n_bins):\n    return -((remaining-item-20)*(remaining-item-20))\n"
+      }
+    ],
+    "max_tokens": 1200,
+    "temperature": 0.9,
+    "thinking": {
+      "type": "disabled"
+    },
+    "stream": false
+  },
+  "reservation_cny": 0.051968,
+  "endpoint": "https://open.bigmodel.cn/api/paas/v4/chat/completions",
+  "parent_sha256": "61d6888ecd115b009dfc1c4ed9e0b985864315939ca2861b27ff7081d6fbdd52"
+}

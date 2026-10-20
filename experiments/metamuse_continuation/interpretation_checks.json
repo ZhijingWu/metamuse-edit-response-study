@@ -1,0 +1,66 @@
+{
+  "candidate_test_references": {
+    "new_p01_02": {
+      "mean": 6.793752154736028,
+      "difference_from_best_fit_pp": 0.000609161793372337,
+      "workload_bank_ci95": [
+        -0.03969003832187423,
+        0.04090836190861891
+      ],
+      "trace_wins_ties_losses": [
+        1,
+        94,
+        1
+      ]
+    },
+    "old_champion_reference": {
+      "mean": 6.800137850776896,
+      "difference_from_best_fit_pp": 0.0069948578342406975,
+      "workload_bank_ci95": [
+        -0.045829365411131646,
+        0.05981908107961304
+      ],
+      "trace_wins_ties_losses": [
+        1,
+        94,
+        1
+      ]
+    }
+  },
+  "first_diversity_pick_invalid_component_fraction": 0.9994491728360094,
+  "first_diversity_distance": 0.500275565370887,
+  "current_more_costly_than_neutral_fraction": 0.056895016085109384,
+  "failures_under_frozen_contract": [
+    {
+      "attempt": "a005",
+      "logical": "new_p01_00",
+      "reason": "Invalid: non-finite, non-scalar or oversized numeric value"
+    },
+    {
+      "attempt": "a013",
+      "logical": "new_p03_00",
+      "reason": "SyntaxError: unmatched ')' (<unknown>, line 1)"
+    },
+    {
+      "attempt": "a031",
+      "logical": "new_p04_02",
+      "reason": "ZeroDivisionError: integer modulo by zero"
+    },
+    {
+      "attempt": "a035",
+      "logical": "new_p05_05",
+      "reason": "Invalid: exactly one closed code block required"
+    },
+    {
+      "attempt": "a036",
+      "logical": "new_p06_04",
+      "reason": "Invalid: exp bound"
+    },
+    {
+      "attempt": "a050",
+      "logical": "new_p03_06",
+      "reason": "Invalid: exp bound"
+    }
+  ],
+  "new_test_evaluation_wall_seconds": 220.02173260000018
+}

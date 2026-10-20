@@ -1,0 +1,11 @@
+{
+  "all_checks_passed": true,
+  "attempts": 60,
+  "result_records": 60,
+  "saved_credential_hits": 0,
+  "prior_pilot_files_verified": 30,
+  "frozen_program_and_workload_hashes_valid": true,
+  "budget_and_ledger_valid": true,
+  "heldout_selection_hash_valid": true,
+  "no_api_calls_in_verification": true
+}

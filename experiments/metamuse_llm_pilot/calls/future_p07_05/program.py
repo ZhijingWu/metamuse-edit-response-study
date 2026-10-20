@@ -1,0 +1,6 @@
+def score(remaining, item, capacity, index, n_bins):
+    space = remaining - item
+    filled = capacity - remaining
+    pop = filled / 20
+    target = 20 + 8 * pop
+    return -(space - target) ** 2 - 0.1 * space - 0.01 * pop

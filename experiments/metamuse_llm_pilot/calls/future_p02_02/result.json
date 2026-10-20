@@ -1,0 +1,97 @@
+{
+  "id": "future_p02_02",
+  "parent": "p02",
+  "role": "future",
+  "slot": 2,
+  "edit": "local",
+  "http_success": true,
+  "evaluation": {
+    "valid": true,
+    "bins": [
+      113,
+      112,
+      102,
+      62,
+      62,
+      65,
+      98,
+      93,
+      107,
+      119,
+      118,
+      119
+    ],
+    "scores": [
+      9.70873786407767,
+      13.131313131313131,
+      7.368421052631579,
+      1.639344262295082,
+      3.3333333333333335,
+      3.1746031746031744,
+      4.25531914893617,
+      2.197802197802198,
+      7.0,
+      35.22727272727273,
+      34.09090909090909,
+      33.70786516853933
+    ],
+    "mean": 12.902910095976123,
+    "action_hashes": [
+      "9291ee95523742af02ad9f125fe9292da3f623a4f77f6b5cf4b993b1c30cf0b8",
+      "5e06b78e093dddd01b7ae2f9edde7e4aa98766381f3309689a4f46a66e606a26",
+      "b3430565d978d1d42020530cd160d7372174035c10ff4fc69deb0f0b4407af9c",
+      "c318613bc0f8bf73c48327d06643d4ff874e8fe4c85fe1a7c499c17082bfc8d9",
+      "9f689846733eaefbdb3b83b36c317beb6d06a21d47c6545d3e5cddb3c47ac08c",
+      "d34ed8d465ada3e866e54af113c01663fbf053f4be0d45f13180083bfb6a5a7a",
+      "b7c517df45f7f15a968b7c4392b5bb22d0a91b1d8bb69f6d23305373d8fefdef",
+      "40a68be9ad8bad8f5855807fe13777315ac1667a202c797d87afb6ec63760bda",
+      "75b6bdaa9d6bf7b9dbb6dbcc17db1e288d4550671b360ae39142c7cb24790a61",
+      "28990c6d4c92b2ddd607cb784f227d8551300bfca83f2c301d1cb22210082100",
+      "16168a0491804c57b703cdf488cac86bc53176165c43f56931c6b348d0eeee9c",
+      "0d35ef8427e45f49e0b6ef602a816d2465640fe55d6e0cb61eaea2fc46c5359e"
+    ],
+    "features": {
+      "Module": 1,
+      "FunctionDef": 1,
+      "arguments": 1,
+      "Assign": 12,
+      "If": 3,
+      "Return": 1,
+      "arg": 5,
+      "Name": 36,
+      "BinOp": 18,
+      "Compare": 3,
+      "Store": 12,
+      "Sub": 6,
+      "Div": 2,
+      "Lt": 3,
+      "Constant": 14,
+      "Pow": 1,
+      "Mult": 6,
+      "Call": 1,
+      "Add": 3,
+      "Load": 24,
+      "UnaryOp": 1,
+      "USub": 1
+    },
+    "seconds": 0.8293321999999534
+  },
+  "usage": {
+    "completion_tokens": 185,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 307,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 492
+  },
+  "cost_cny": 0.004188,
+  "http_status": 200,
+  "returned_model": "glm-4.7",
+  "finish_reason": "stop",
+  "program_sha256": "5e81bc9de12db2c5d203c20f5e6c3bc61d584c2e886c5c0d2c12ebc6abe4b189",
+  "wall_seconds": 10.690230400000473,
+  "finished_utc": "2026-10-20T01:48:27Z"
+}

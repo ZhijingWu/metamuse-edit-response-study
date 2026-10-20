@@ -1,0 +1,9 @@
+The parent scores bins by how well the item fills the available space (`remaining - item`). However, a smaller waste (`remaining - item`) means a tighter fit, which might prevent the bin from accepting larger items later. 
+By modifying the scoring rule to include a nonlinear penalty for tight fits (making it prefer leaving moderate space rather than a tiny sliver), we can better preserve bins for future large items. 
+We replace `1/(w+1)` with `(w**2 - w + 1)/(remaining + 1)`, which heavily penalizes very small waste `w`, favors moderate waste, and still prefers bins that are closer to full overall.
+
+```python
+def score(remaining, item, capacity, index, n_bins):
+    w = remaining - item
+    return (w * w - w + 1) / (remaining + 1)
+```

@@ -1,0 +1,14 @@
+```python
+def score(remaining, item, capacity, index, n_bins):
+    used = capacity - remaining
+    space = remaining - item
+    r = space / capacity
+    u = used / capacity
+    i = item / capacity
+    fit = 1.0 - r
+    pop = u * (1.0 + u)
+    target = 1.0 - i
+    near = 1.0 - abs(fit - target)
+    bonus = 1.0 if space == 0 else 0.0
+    return pop + near * 0.8 + bonus * 1.5 + r * 0.2
+```

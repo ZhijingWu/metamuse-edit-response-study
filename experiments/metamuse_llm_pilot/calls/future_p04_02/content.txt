@@ -1,0 +1,10 @@
+This modification introduces a two-phase conditional logic. For relatively full bins (remaining ≤ 50), it aggressively rewards nearly full bins using a quadratic penalty on the remaining space, which helps push bins to exact capacity early. For emptier bins, it uses a blended score that balances the parent's remaining-item metric with a proportional fit, preventing poor choices when the bin is largely empty. This nonlinear shift targets better packing on varied distributions without losing the parent's core rationale.
+
+```python
+def score(remaining, item, capacity, index, n_bins):
+    u = capacity - remaining
+    if remaining <= 50:
+        return 10000 - remaining * remaining
+    else:
+        return (remaining - item) + 200 * item / remaining
+```

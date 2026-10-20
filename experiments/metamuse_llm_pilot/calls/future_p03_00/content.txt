@@ -1,0 +1,11 @@
+The parent algorithm ignores both the remaining capacity of the bins and the size of the current item, effectively just choosing the earliest bin (equivalent to First-Fit). 
+
+To improve packing, we modify the score to heavily prefer bins where the item fits perfectly or leaves minimal remaining space (like Best-Fit), while breaking ties using the original `1.0/(index+1)` rationale to favor earlier bins. We use a nonlinear exponential decay on the remaining space after packing. This sharply prioritizes near-perfect fits and gracefully degrades for looser fits, avoiding the strict discontinuities of simple inverse rules.
+
+```python
+def score(remaining, item, capacity, index, n_bins):
+    space = remaining - item
+    fit_score = 1.0 + 1.0 / (1.0 + space)
+    idx_score = 1.0 / (index + 1)
+    return fit_score * idx_score
+```

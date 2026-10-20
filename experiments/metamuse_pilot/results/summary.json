@@ -1,0 +1,223 @@
+{
+  "config": {
+    "schema": 1,
+    "purpose": "Frozen finite-grammar falsification study, not LLM generation or a MetaMuse reproduction",
+    "upstream_sha": "b976a28426268e2f7310b0a8d9c33f3a82496479",
+    "capacity": 100,
+    "items_per_trace": 96,
+    "traces_per_family": 3,
+    "train_seed": 20261020,
+    "test_seed": 20261021,
+    "coefficients": [
+      -2,
+      -1,
+      0,
+      1,
+      2
+    ],
+    "archive_size": 8,
+    "initial_pool_size": 8,
+    "evaluation_budget": 120,
+    "search_seeds": 30,
+    "probe_labels": [
+      0,
+      4
+    ],
+    "methods": [
+      "fitness_flat",
+      "performance_flat",
+      "random_flat",
+      "performance",
+      "syntax",
+      "response",
+      "moments",
+      "offspring_quality",
+      "reservoir"
+    ],
+    "registration": "Created before first outcome; no parameter changes permitted without a separately labeled revision"
+  },
+  "conformance": {
+    "checks": 48,
+    "all_agree": true,
+    "source_sha256": "cbbd71b45083ca9da9b63af0f39ecfa2fd209c03b92c3423b32fce57e598e360"
+  },
+  "landscape": {
+    "programs": 625,
+    "performance_cells": 172,
+    "non_singleton_cells": 82,
+    "aliased_pairs": 5655,
+    "different_uniform_transition_pairs": 5628,
+    "fraction_different": 0.9952254641909815,
+    "maximum_tv": 1.0,
+    "witness": {
+      "p": 2,
+      "q": 157,
+      "p_genome": [
+        -2,
+        -2,
+        -2,
+        0
+      ],
+      "q_genome": [
+        -1,
+        -1,
+        -1,
+        0
+      ],
+      "same_parent_bins": [
+        53,
+        58,
+        51,
+        35,
+        35,
+        33,
+        52,
+        58,
+        53,
+        61,
+        59,
+        59
+      ],
+      "tv": 1.0,
+      "p_child_mean_scores": [
+        17.902306493488634,
+        14.531638010262402,
+        17.633489289187562,
+        17.614970770669043,
+        18.250642007762913,
+        15.137178424927992,
+        18.091269079847788,
+        16.12529328638251
+      ],
+      "q_child_mean_scores": [
+        17.27117044860785,
+        18.365021092730235,
+        18.068973160155302,
+        17.720898709477417,
+        19.86935175011396,
+        17.721147073198782,
+        18.369046857625563,
+        14.877321794103619
+      ]
+    }
+  },
+  "methods": {
+    "fitness_flat": {
+      "mean_train": 12.408256837202984,
+      "mean_test": 8.518765521189385,
+      "test_sd": 0.08643928837032872,
+      "mean_unique_evaluated": 72.13333333333334,
+      "response_minus_baseline_test": -0.022713577156631005,
+      "response_wins_ties_losses": [
+        2,
+        28,
+        0
+      ]
+    },
+    "performance_flat": {
+      "mean_train": 12.402835473810606,
+      "mean_test": 8.557062487033019,
+      "test_sd": 0.334168506468836,
+      "mean_unique_evaluated": 77.53333333333333,
+      "response_minus_baseline_test": -0.06101054300026417,
+      "response_wins_ties_losses": [
+        1,
+        29,
+        0
+      ]
+    },
+    "random_flat": {
+      "mean_train": 12.385068431405882,
+      "mean_test": 8.496051944032754,
+      "test_sd": 0.0,
+      "mean_unique_evaluated": 109.93333333333334,
+      "response_minus_baseline_test": 0.0,
+      "response_wins_ties_losses": [
+        0,
+        30,
+        0
+      ]
+    },
+    "performance": {
+      "mean_train": 12.396662634304432,
+      "mean_test": 8.507408732611069,
+      "test_sd": 0.062203692851604264,
+      "mean_unique_evaluated": 82.9,
+      "response_minus_baseline_test": -0.011356788578315503,
+      "response_wins_ties_losses": [
+        1,
+        29,
+        0
+      ]
+    },
+    "syntax": {
+      "mean_train": 12.385068431405882,
+      "mean_test": 8.496051944032754,
+      "test_sd": 0.0,
+      "mean_unique_evaluated": 84.53333333333333,
+      "response_minus_baseline_test": 0.0,
+      "response_wins_ties_losses": [
+        0,
+        30,
+        0
+      ]
+    },
+    "response": {
+      "mean_train": 12.385068431405882,
+      "mean_test": 8.496051944032754,
+      "test_sd": 0.0,
+      "mean_unique_evaluated": 81.43333333333334,
+      "response_minus_baseline_test": 0.0,
+      "response_wins_ties_losses": [
+        0,
+        30,
+        0
+      ]
+    },
+    "moments": {
+      "mean_train": 12.414429676709156,
+      "mean_test": 8.539182065943487,
+      "test_sd": 0.18278147868876607,
+      "mean_unique_evaluated": 83.43333333333334,
+      "response_minus_baseline_test": -0.043130121910733385,
+      "response_wins_ties_losses": [
+        2,
+        28,
+        0
+      ]
+    },
+    "offspring_quality": {
+      "mean_train": 12.408256837202984,
+      "mean_test": 8.518765521189385,
+      "test_sd": 0.08643928837032872,
+      "mean_unique_evaluated": 80.23333333333333,
+      "response_minus_baseline_test": -0.022713577156631005,
+      "response_wins_ties_losses": [
+        2,
+        28,
+        0
+      ]
+    },
+    "reservoir": {
+      "mean_train": 12.396662634304432,
+      "mean_test": 8.507408732611069,
+      "test_sd": 0.062203692851604264,
+      "mean_unique_evaluated": 80.9,
+      "response_minus_baseline_test": -0.011356788578315503,
+      "response_wins_ties_losses": [
+        1,
+        29,
+        0
+      ]
+    }
+  },
+  "actual_precomputation_candidate_trace_evaluations": 15000,
+  "search_replay_charged_candidate_evaluations": 32400,
+  "llm_calls": 0,
+  "llm_tokens": 0,
+  "api_cost_usd": 0,
+  "wall_seconds": 45.44472939999969,
+  "python": "3.13.5",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "scope": "Finite deterministic grammar and replay; no model-generated candidates; not a MetaMuse performance comparison"
+}

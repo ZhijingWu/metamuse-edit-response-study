@@ -1,0 +1,14 @@
+The parent `remaining - item` is equivalent to `-item + remaining`, which greedily minimizes `item` (Best Fit) while breaking ties by minimizing `remaining` (least slack). This tie-breaker is suboptimal; it leaves smaller bins nearly full but does little to help consolidate larger remaining capacities into exact fits.
+
+This child modifies the slack term into a nonlinear, capacity-aware conditional rule. For tight fits (slack ≤ 10), it uses `-(capacity - remaining)**2`, strongly prioritizing bins that are already very full (large `remaining`). For looser fits, it adds an absolute item-size bonus to slightly favor placing larger items into bins with more room, improving consolidation without sacrificing core Best Fit behavior.
+
+```python
+def score(remaining, item, capacity, index, n_bins):
+    slack = remaining - item
+    fullness = capacity - remaining
+    if slack <= 10:
+        t = -(fullness * fullness)
+    else:
+        t = remaining + item
+    return -item + t
+```

@@ -1,0 +1,13 @@
+The parent heuristic `1/(remaining-item+1)` prioritizes bins where the new slack (`remaining-item`) is minimized, effectively trying to create the tightest possible fits. However, it can be overly greedy, leading to many bins with small, often unusable remaining capacities.
+
+A better approach is to strongly penalize bins that would be left with very small remaining capacities (which are rarely useful later) while still preferring tight fits for larger items. We can achieve this by adding a steep nonlinear penalty for small slack: `500.0 / (remaining - item + 1.0)**3`. This heavily discourages leaving tiny fragments. For larger items, tight fits are crucial, so we add an item-proportional bonus to tight fitting: `item * (1.0 / (remaining - item + 1.0))`. For smaller items, we prefer filling bins that are already nearly full but have enough room, captured by `(remaining - item)**0.5 / (remaining + 1.0)`. We also slightly prefer earlier bins via `-index * 1e-6`.
+
+```python
+def score(remaining, item, capacity, index, n_bins):
+    slack = remaining - item
+    tight = 1.0 / (slack + 1.0)
+    near_full = slack**0.5 / (remaining + 1.0)
+    small_penalty = 500.0 / (slack + 1.0)**3
+    bonus = item * tight
+    return bonus + near_full - small_penalty - index * 1e-6
+```

@@ -1,0 +1,3 @@
+This heuristic improves upon the parent's pure index bias by incorporating a nonlinear relationship between the item size and the remaining capacity. It uses a product of the inverse index (retaining the parent's preference for earlier bins) and the squared fractional remaining capacity. This creates a strong conditional preference: it heavily favors bins that perfectly fit the item (remaining ≈ item) while still using index to break ties, and gracefully degrades to the parent's behavior when the item is very small. This targeted nonlinear change encourages tighter packing without completely abandoning the original rationale.</think>def score(remaining, item, capacity, index, n_bins):
+    fit = item / remaining
+    return (1.0 / (index + 1)) * (fit ** 2)

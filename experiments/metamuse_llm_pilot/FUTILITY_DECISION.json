@@ -1,0 +1,9 @@
+{
+  "completed_real_attempts": 48,
+  "training_only": true,
+  "weak_quality_strict_cost_domination_fraction": 0,
+  "response_ever_strictly_better_than_performance": true,
+  "stop": false,
+  "rule_file_sha256": "da179197eb33000a5966585e231106698abb318290a6bbd7f6364dee37d657f6",
+  "heldout_results_present_at_gate": false
+}

@@ -1,0 +1,16 @@
+The parent uses `1/(remaining - item + 1)`, prioritizing bins that will be the most full after packing. To improve packing, we apply a conditional hybrid approach: for near-perfect fits (where remaining is close to item), we amplify the preference to firmly close the gap, while for looser fits, we emphasize strict monotonic fullness to avoid leaving awkward small gaps. We also penalize higher indices to favor earlier bins for ties.
+
+```python
+def score(remaining, item, capacity, index, n_bins):
+    gap = remaining - item
+    if gap == 0:
+        return 1e12
+    fullness = capacity - gap
+    if gap <= 3:
+        p = (capacity - gap) ** 3 + 1.0 / (gap + 1)
+    elif gap <= 10:
+        p = fullness * (capacity - gap + 1)
+    else:
+        p = fullness + 1.0 / (gap + 1)
+    return p - index * 1e-4
+```

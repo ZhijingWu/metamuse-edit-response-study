@@ -1,0 +1,9 @@
+{
+  "utc": "2026-10-20T01:55:09.731554+00:00",
+  "total_actual_attempts_at_stop": 60,
+  "balanced_bank_attempts_for_comparison": 48,
+  "training_replay_sha256": "387171fded7bd98ac2ab02d70a881330e5f696fb6a46003d53882c7ee358e1c7",
+  "heldout_results_exist": false,
+  "no_further_acquisition": true,
+  "reason": "Network stop; preserve completed balanced batch, exclude uneven interrupted batch from selector comparison"
+}

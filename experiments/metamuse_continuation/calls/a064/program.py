@@ -1,0 +1,12 @@
+def score(remaining, item, capacity, index, n_bins):
+    used = capacity - remaining
+    r = remaining / capacity
+    i = item / capacity
+    if r <= 0.25:
+        return (used + item) / capacity - index
+    elif r <= 0.5:
+        return i * r - index
+    elif r <= 0.75:
+        return i * (1 - r) - index
+    else:
+        return -i - index

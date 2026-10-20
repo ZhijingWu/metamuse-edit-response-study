@@ -1,0 +1,7 @@
+The parent uses a simple linear residual ratio, which is equivalent to Best Fit. We can improve this by introducing a non-linear tradeoff that also considers the item's size. Packing a larger item into a bin that leaves less absolute waste is generally better, but penalizing bins that are still very empty (where the item takes up most of the space, leaving an awkward small gap) helps avoid fragmentation. The proposed scorer heavily rewards bins that are already well-populated (where `remaining - item` is small relative to `item`), while the additive term ensures that among bins with similar fill ratios, the one with the smaller absolute waste wins.
+
+```python
+def score(remaining, item, capacity, index, n_bins):
+    waste = remaining - item
+    return -waste / item - waste / capacity
+```

@@ -1,0 +1,7 @@
+This modification transforms the parent's linear difference penalty into a nonlinear, exponentially weighted penalty. It strongly prioritizes bins whose remaining capacity is close to `item + 20`, but shifts the preference asymmetrically: bins with slightly less remaining space (tighter fits) are penalized far less than bins with excess remaining space. This encourages tighter packing and reduces fragmentation when perfect matches aren't available.
+
+```python
+def score(remaining, item, capacity, index, n_bins):
+    diff = remaining - item - 20
+    return -diff * diff - exp(max(0, diff))
+```

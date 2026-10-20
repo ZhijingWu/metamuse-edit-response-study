@@ -1,0 +1,4 @@
+def score(remaining, item, capacity, index, n_bins):
+    space = remaining - item
+    norm = space / capacity
+    return (1.0 / (space + 1)) + (norm ** 0.5) + (1.0 if space < 5 else 0.0)

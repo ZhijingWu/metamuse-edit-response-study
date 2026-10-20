@@ -1,0 +1,7 @@
+def score(remaining, item, capacity, index, n_bins):
+    s = remaining - item
+    d = capacity - remaining
+    t = d * item
+    p = s * s / (s + 1)
+    q = 20 + t / (t + 40)
+    return p / q

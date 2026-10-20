@@ -1,0 +1,16 @@
+```python
+def score(remaining, item, capacity, index, n_bins):
+    space = remaining - item
+    u = (capacity - remaining) / capacity
+    s = item / capacity
+    d = space / capacity
+    if space <= 0:
+        return -1e9
+    if space <= 5:
+        return 1000 - u * 10 - index * 0.01
+    if d <= 0.15:
+        return 500 + u * 200 - d * 100 - index * 0.01
+    if u > 0.5:
+        return 300 + u * 100 + s * 50 - d * 80 - index * 0.01
+    return -d * 500 - index * 0.01
+```

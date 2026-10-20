@@ -1,0 +1,54 @@
+{
+  "role": "prespecified cost-curve diagnostic; does not replace planned 48-credit endpoint",
+  "rows": [
+    {
+      "method": "performance",
+      "attempt_credits": 16,
+      "mean_heldout": 7.261433243575846,
+      "mean_cost_cny": 0.0492,
+      "censored": false
+    },
+    {
+      "method": "random",
+      "attempt_credits": 16,
+      "mean_heldout": 7.133017943029398,
+      "mean_cost_cny": 0.0463576,
+      "censored": false
+    },
+    {
+      "method": "neutral_drift",
+      "attempt_credits": 16,
+      "mean_heldout": 7.157608106963824,
+      "mean_cost_cny": 0.04661424,
+      "censored": false
+    },
+    {
+      "method": "structural",
+      "attempt_credits": 16,
+      "mean_heldout": 7.261433243575846,
+      "mean_cost_cny": 0.05060800000000001,
+      "censored": false
+    },
+    {
+      "method": "response",
+      "attempt_credits": 16,
+      "mean_heldout": 7.261433243575846,
+      "mean_cost_cny": 0.05451999999999999,
+      "censored": false
+    },
+    {
+      "method": "probe_control",
+      "attempt_credits": 16,
+      "mean_heldout": 7.261433243575846,
+      "mean_cost_cny": 0.05451999999999999,
+      "censored": false
+    },
+    {
+      "method": "offspring_quality",
+      "attempt_credits": 16,
+      "mean_heldout": 7.261433243575846,
+      "mean_cost_cny": 0.05451999999999999,
+      "censored": false
+    }
+  ]
+}

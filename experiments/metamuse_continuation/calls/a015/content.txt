@@ -1,0 +1,10 @@
+The parent prioritizes bins by their future waste (`remaining-item`), normalized by capacity. This favors bins with the most free space, effectively creating a "Worst-Fit" heuristic, which often wastes space by leaving small, hard-to-fill gaps. 
+
+To improve packing, we change the scoring to heavily penalize bins that would be left with small, hard-to-fill remainders after packing the item. We calculate the potential future remainder `r = remaining - item`. If `r` is small, we apply an exponentially decaying penalty `exp(-r)` to the base score. If `r` is large, we apply a mild sub-linear boost `sqrt(r)`. This strongly favors bins where the item fits "perfectly" (small `r`), while still breaking ties among poor fits by preferring the tightest fit (small `r`), shifting the behavior from Worst-Fit towards Best-Fit for larger items, while keeping Worst-Fit's stability for small items.
+
+```python
+def score(remaining, item, capacity, index, n_bins):
+    r = remaining - item
+    base = r / capacity
+    return base * exp(-r) if r < 1 else base * sqrt(r)
+```

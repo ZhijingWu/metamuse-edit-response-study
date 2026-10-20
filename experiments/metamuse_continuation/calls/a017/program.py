@@ -1,0 +1,13 @@
+def score(remaining, item, capacity, index, n_bins):
+    r = remaining - item
+    used = capacity - remaining
+    full = capacity - r
+    if full <= 0:
+        full = 1
+    pop = used // 10
+    if pop <= 0:
+        pop = 1
+    tight = r * 1.0 / full
+    bal = abs(r - item)
+    s = 10000 - r * 100 - pop * 10 + tight * 5 - bal * 3
+    return s

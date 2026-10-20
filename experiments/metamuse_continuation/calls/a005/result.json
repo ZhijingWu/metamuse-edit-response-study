@@ -1,0 +1,34 @@
+{
+  "logical_id": "new_p01_00",
+  "parent": "p01",
+  "slot": 0,
+  "edit": "local",
+  "attempt_id": "a005",
+  "retry": false,
+  "http_success": true,
+  "transport_failure": false,
+  "usage": {
+    "completion_tokens": 96,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 314,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 410
+  },
+  "nominal_cny": 0.001396,
+  "conservative_cny": 0.002792,
+  "evaluation": {
+    "valid": false,
+    "reason": "Invalid: non-finite, non-scalar or oversized numeric value",
+    "seconds": 0.0002660999998624902
+  },
+  "http_status": 200,
+  "returned_model": "glm-4.7",
+  "finish_reason": "stop",
+  "program_sha256": "310366a6d2cf3fbb11392de75581cf1efbf725501934a040fc3247ccaac81280",
+  "wall_seconds": 6.281992499998523,
+  "finished_utc": "2026-10-20T02:27:29Z"
+}

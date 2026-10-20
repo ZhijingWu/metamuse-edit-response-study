@@ -1,0 +1,95 @@
+{
+  "id": "future_p00_06",
+  "parent": "p00",
+  "role": "future",
+  "slot": 6,
+  "edit": "local",
+  "http_success": true,
+  "evaluation": {
+    "valid": true,
+    "bins": [
+      114,
+      112,
+      102,
+      63,
+      63,
+      65,
+      100,
+      94,
+      107,
+      118,
+      118,
+      119
+    ],
+    "scores": [
+      10.679611650485437,
+      13.131313131313131,
+      7.368421052631579,
+      3.278688524590164,
+      5.0,
+      3.1746031746031744,
+      6.382978723404255,
+      3.2967032967032965,
+      7.0,
+      34.09090909090909,
+      34.09090909090909,
+      33.70786516853933
+    ],
+    "mean": 13.43350024200738,
+    "action_hashes": [
+      "f25765a2f5365e2d9abe298d4afbdc0d8c6f1e5b2937f6ea701fce5531c1073e",
+      "63ed08ab68160167f38f1572a8c17a7bef115c8af58af93eb09f8dd6ac2bc65d",
+      "4040f9e15ec06103188182875de5fde1d43536867f6e235d39628929890f778b",
+      "c202d0796d2144236e86f4aa39d8d7c7c9c985a02f7dbeb1158f3aada72f4682",
+      "0c134c808debd68015d0a6ed8915ccb90c79dc15e42339e897a52e06fd432475",
+      "110e89eb8eb0c660dcd5da0ebb21381fa037ce1425b2ac2c60637adcfb27151b",
+      "e465f691f2b7c23f10b2f50a6cd55d4aa14f1c9d2e485f09b54a38abcb91ebfe",
+      "2aafbb769a26f1941992f76746e42c775be148fcb7f23a65eb11403c50d9b269",
+      "daf0509cdbe53eda1e2c1a768da2866b95db48db94b1b9932986a1ff4de00e6e",
+      "494075a854e460339fa71566ea4f400d722a1839018bf43808600be58fa6e9ba",
+      "16168a0491804c57b703cdf488cac86bc53176165c43f56931c6b348d0eeee9c",
+      "70a39b0131350c5c9c4ed9069ad2d9a033eab48e3df0533f206909096964fc6e"
+    ],
+    "features": {
+      "Module": 1,
+      "FunctionDef": 1,
+      "arguments": 1,
+      "Assign": 1,
+      "If": 2,
+      "Return": 3,
+      "arg": 5,
+      "Name": 9,
+      "BinOp": 3,
+      "Compare": 2,
+      "Store": 1,
+      "Sub": 2,
+      "Eq": 1,
+      "Constant": 4,
+      "Lt": 1,
+      "UnaryOp": 2,
+      "Call": 1,
+      "Load": 8,
+      "Mult": 1,
+      "USub": 2
+    },
+    "seconds": 0.06609920000028069
+  },
+  "usage": {
+    "completion_tokens": 196,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 308,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 504
+  },
+  "cost_cny": 0.004368,
+  "http_status": 200,
+  "returned_model": "glm-4.7",
+  "finish_reason": "stop",
+  "program_sha256": "4258be09db3d0aa0015b1a449f14621174d1ec5dcb7a1b2a742d8298a9c42899",
+  "wall_seconds": 9.28445450000072,
+  "finished_utc": "2026-10-20T01:51:38Z"
+}

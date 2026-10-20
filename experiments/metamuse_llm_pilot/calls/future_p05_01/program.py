@@ -1,0 +1,16 @@
+def score(remaining, item, capacity, index, n_bins):
+    used = capacity - remaining
+    new_used = used + item
+    waste = remaining - item
+    fit = new_used / capacity
+    item_frac = item / capacity
+    if waste <= 5:
+        return 1000.0 + fit
+    elif waste <= 20:
+        return 100.0 + fit - 0.001 * index
+    elif waste <= 40:
+        return 10.0 + fit * item_frac
+    elif waste <= 70:
+        return 1.0 + fit * item_frac * item_frac
+    else:
+        return 0.01 * fit * item_frac * item_frac

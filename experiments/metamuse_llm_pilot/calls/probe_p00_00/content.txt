@@ -1,0 +1,7 @@
+The parent prioritizes bins that leave the least remaining space after packing, which is equivalent to Best Fit. However, this linear rule treats all waste equally. By applying a nonlinear (exponential) penalty to the resulting waste, we strongly discourage creating bins with small remaining capacities that can't fit future items, while still favoring tighter fits overall. This conditional/nonlinear adjustment seeks to reduce total bins by preserving more viable residual space across bins.
+
+```python
+def score(remaining, item, capacity, index, n_bins):
+    new_rem = remaining - item
+    return -((new_rem ** 4 + 1) ** 0.125 - 1 + new_rem)
+```

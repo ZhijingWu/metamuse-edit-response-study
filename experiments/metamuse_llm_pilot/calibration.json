@@ -1,0 +1,9 @@
+{
+  "completed_utc": "2026-10-20T01:42:36Z",
+  "count": 4,
+  "valid": 4,
+  "mean_cost_cny": 0.003113,
+  "primary_replay_cost_budget_cny": 0.099616,
+  "reason": "price calibration only; fixed before future outcomes and selection replay",
+  "parser_revision": 2
+}

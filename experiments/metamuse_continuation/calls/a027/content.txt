@@ -1,0 +1,8 @@
+We use a scoring heuristic that prefers placing items into bins with smaller remaining space, but also introduces a gentle penalty for bins that are already highly populated (high index). This breaks ties in favor of earlier bins, slightly discouraging the creation of heavily stacked bins which can sometimes trap future large items. The exponential decay ensures the remaining space dominates, while the index provides a subtle secondary sort.
+
+```python
+def score(remaining, item, capacity, index, n_bins):
+    fit = remaining - item
+    norm = fit / capacity
+    return -norm - 0.001 * (index + 1) * (1 - norm)
+```

@@ -1,0 +1,13 @@
+The parent uses `-(remaining-item)`, which is equivalent to `-remaining + item` (Best Fit: prioritize the bin with the least remaining space after packing).
+
+We can improve this by using a nonlinear, conditional transformation on the leftover space. Small leftovers are heavily penalized to enforce exact fits (a powerful strategy for uniform/complementary items), while larger leftovers are scored more smoothly to maintain good average packing for Weibull/phased items. This avoids the extreme fragility of pure `1/remaining` (which can overvalue a 1-unit leftover over a 0-unit leftover) while still strongly prioritizing tight fits.
+
+```python
+def score(remaining, item, capacity, index, n_bins):
+    leftover = remaining - item
+    if leftover == 0:
+        return 1000.0
+    if leftover < 5:
+        return -leftover * 10.0
+    return -leftover - sqrt(leftover)
+```

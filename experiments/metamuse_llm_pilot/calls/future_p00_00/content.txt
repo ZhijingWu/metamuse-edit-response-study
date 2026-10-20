@@ -1,0 +1,9 @@
+The parent rule `-(remaining - item)` is equivalent to `item - remaining`. It strongly prefers the tightest fit (smallest `remaining`), which is the classic Best Fit heuristic. However, Best Fit can waste small amounts of space that are too tiny for future items, leading to fragmentation.
+
+We can improve this by introducing a nonlinear penalty for bins that are nearly full but leave a small, likely unusable gap. We calculate the gap `g = remaining - item`. A gap that is a larger fraction of the remaining space is less risky. We penalize tiny gaps using the ratio `g / remaining`, which is small for bad tiny gaps and large for safe proportional gaps. We also slightly scale the item preference to avoid completely overriding Best Fit's core rationale.
+
+```python
+def score(remaining, item, capacity, index, n_bins):
+    g = remaining - item
+    return item * 1.05 - remaining + g / remaining
+```

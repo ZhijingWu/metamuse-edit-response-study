@@ -1,0 +1,9 @@
+def score(remaining, item, capacity, index, n_bins):
+    new_rem = remaining - item
+    util = new_rem / capacity
+    if util > 0.5:
+        return 1.0 / (new_rem + 1) * (1.0 + util ** 2)
+    elif util > 0.2:
+        return 1.0 / (new_rem + 1)
+    else:
+        return 1.0 / (new_rem + 1) * (0.5 + util)

@@ -1,0 +1,77 @@
+{
+  "logical_id": "new_p02_00",
+  "parent": "p02",
+  "slot": 0,
+  "edit": "local",
+  "attempt_ids": [
+    "a008"
+  ],
+  "final_attempt_id": "a008",
+  "evaluation": {
+    "valid": true,
+    "bins": [
+      113,
+      112,
+      102,
+      62,
+      62,
+      65,
+      98,
+      93,
+      107,
+      119,
+      118,
+      119
+    ],
+    "scores": [
+      9.70873786407767,
+      13.131313131313131,
+      7.368421052631579,
+      1.639344262295082,
+      3.3333333333333335,
+      3.1746031746031744,
+      4.25531914893617,
+      2.197802197802198,
+      7.0,
+      35.22727272727273,
+      34.09090909090909,
+      33.70786516853933
+    ],
+    "mean": 12.902910095976123,
+    "action_hashes": [
+      "624a53a16acf796f0085312275a65c1e965a8623fbfe0a2acf42f758b36d38b5",
+      "1ff0e78e4f99f2b06246cc4cbb600bbb2691a275e9cd174c7d3ba45101716959",
+      "eabd64bb0ad5276157dd4d3d09dce82abd1f7bf8bec1f9d6102c73bc0160f557",
+      "fa642a74e318e455a2a247eb92e22f6a0d4d60e679fffb9c41b41e84cc9d5590",
+      "dcb3b651b2ee3442014898decfbb4c85e7717f4b4f5b222ebc912f7b7f0b899e",
+      "1bff1be551f9a01a441e0d471c8fe7eba2ab89d692069100e2d33221f6392773",
+      "ab4674040cf9aab5d9516d6768b28e254d51d487683cbc964a7783ed4f4413f5",
+      "efdb772b92aa239fc5987edb46cb2e34d95e1ffa494680356f6f7cf878512c0f",
+      "1f461fbe03d2094bd43cdb6e8ce4507da541b9187a8bb9cb94c3e2fb036b5676",
+      "f89c0fe4f3069dfd801e3e941fe421a66e6609109bccdf87561328841b96b15c",
+      "16168a0491804c57b703cdf488cac86bc53176165c43f56931c6b348d0eeee9c",
+      "70a39b0131350c5c9c4ed9069ad2d9a033eab48e3df0533f206909096964fc6e"
+    ],
+    "features": {
+      "Module": 1,
+      "FunctionDef": 1,
+      "arguments": 1,
+      "Assign": 7,
+      "Return": 1,
+      "arg": 5,
+      "Name": 23,
+      "BinOp": 13,
+      "Call": 1,
+      "Store": 7,
+      "Div": 2,
+      "Constant": 6,
+      "Sub": 5,
+      "Pow": 1,
+      "Load": 16,
+      "Add": 2,
+      "Mult": 3
+    },
+    "seconds": 0.8532077999989269
+  },
+  "program_sha256": "68ddbab8f7d1a5a403e72e96a7f01d3305e189d9eb3c72c76c3a45f172454e6b"
+}

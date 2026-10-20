@@ -1,0 +1,13 @@
+def score(remaining, item, capacity, index, n_bins):
+    free = remaining - item
+    r = free / capacity
+    if r < 0.2:
+        base = -(free - 10) * (free - 10)
+    elif r < 0.5:
+        base = -abs(free - 35)
+    else:
+        base = -free * free
+    full = capacity - free
+    af = 1.0 + 0.004 * full
+    ai = 1.0 + 0.002 * index
+    return base * af * ai

@@ -1,0 +1,89 @@
+{
+  "id": "future_p04_00",
+  "parent": "p04",
+  "role": "future",
+  "slot": 0,
+  "edit": "local",
+  "http_success": true,
+  "evaluation": {
+    "valid": true,
+    "bins": [
+      116,
+      114,
+      102,
+      62,
+      62,
+      65,
+      98,
+      93,
+      107,
+      118,
+      118,
+      119
+    ],
+    "scores": [
+      12.62135922330097,
+      15.151515151515152,
+      7.368421052631579,
+      1.639344262295082,
+      3.3333333333333335,
+      3.1746031746031744,
+      4.25531914893617,
+      2.197802197802198,
+      7.0,
+      34.09090909090909,
+      34.09090909090909,
+      33.70786516853933
+    ],
+    "mean": 13.219281741231265,
+    "action_hashes": [
+      "7ac3e3b9a7c299814c64a5f73ec6f3a604d18600c90c1971225d3a5692995adf",
+      "730f322d92399cd46a81c2d5505c2f70d33e9c236ced6cd387b5b077cf50149a",
+      "509bb94c7b4f2ea5ad398486ec7b34a1e9444386fe5cbebe03139cbafa40552f",
+      "47f098eab0f62b8924dd61ac38ad2072fbbebaa99ad5f60d5a9fc74abaa5878a",
+      "9259671b47de0c81b735a38891d35f64161a90867e3ff5f09a08db5b94d9f624",
+      "81fe0ca4d936132d31c6d8f7f75e688bdc4ecfe2c301c5d5f5e37fcb8e768b2c",
+      "a22eff9a0de3c3017959a8f02f1d6bc4c2f48886494fa1ac0a92b9b065104f1e",
+      "765b91898056edfb4cc0fb90779000525899723ec6e62b04f628be604ace6d6a",
+      "037e0b7020809d03729d5795ea2aef4013bba50f3636cb82410a3ede0a1a4ba4",
+      "3411c41201fed2b3b3013aac296d7c33a29e840a0923e9406ef692f58d483ed8",
+      "4afc0ffed96b1b7247a65d208902eff588e328825492021da1ab7b8b5e8637b9",
+      "3b0fc1bd2103c0cd6619e3bf28c55dc6793c71ba740df2ecb4e0dbfaa1b9527b"
+    ],
+    "features": {
+      "Module": 1,
+      "FunctionDef": 1,
+      "arguments": 1,
+      "Assign": 2,
+      "Return": 1,
+      "arg": 5,
+      "Name": 11,
+      "BinOp": 7,
+      "Store": 2,
+      "Sub": 3,
+      "Div": 1,
+      "Load": 9,
+      "Mult": 3,
+      "Constant": 1
+    },
+    "seconds": 0.24718229999962205
+  },
+  "usage": {
+    "completion_tokens": 52,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 307,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 359
+  },
+  "cost_cny": 0.00206,
+  "http_status": 200,
+  "returned_model": "glm-4.7",
+  "finish_reason": "stop",
+  "program_sha256": "352667e57e6e7c625b79868356aeed2ed966e94a58e6eaba2fb9468d0e1d91a8",
+  "wall_seconds": 6.425141599999733,
+  "finished_utc": "2026-10-20T01:50:32Z"
+}

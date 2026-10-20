@@ -1,0 +1,6 @@
+```python
+def score(remaining, item, capacity, index, n_bins):
+    u = capacity - remaining
+    r = remaining - item
+    t = item / capacity
+    return r ** 0.5 - t * u

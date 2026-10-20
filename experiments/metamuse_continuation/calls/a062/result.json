@@ -1,0 +1,96 @@
+{
+  "logical_id": "new_p01_06",
+  "parent": "p01",
+  "slot": 6,
+  "edit": "local",
+  "attempt_id": "a062",
+  "retry": false,
+  "http_success": true,
+  "transport_failure": false,
+  "usage": {
+    "completion_tokens": 71,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 314,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 385
+  },
+  "nominal_cny": 0.001196,
+  "conservative_cny": 0.002392,
+  "evaluation": {
+    "valid": true,
+    "bins": [
+      113,
+      113,
+      102,
+      62,
+      63,
+      64,
+      98,
+      93,
+      107,
+      118,
+      118,
+      119
+    ],
+    "scores": [
+      9.70873786407767,
+      14.141414141414142,
+      7.368421052631579,
+      1.639344262295082,
+      5.0,
+      1.5873015873015872,
+      4.25531914893617,
+      2.197802197802198,
+      7.0,
+      34.09090909090909,
+      34.09090909090909,
+      33.70786516853933
+    ],
+    "mean": 12.899001967067996,
+    "action_hashes": [
+      "b89498d9510377bfe5122ff7c3175dd25c057320c58ec8c3623343a39f0ee70c",
+      "6afd80c5c97f4fc488611abaf379c8034b1695c484265bebd72fad1eee10c28f",
+      "7216950bb4131aadfee77e96bb8c48e0ca0aa371a071738fe60b46ad03cd4ac8",
+      "886b70ca28be2df7cfbd9dd9e8a6c187c995c3a22cdecb35da080456aec11596",
+      "403cb51c098e6e0bc4fc886630606d7c9cdec895f82eae295a23267ca8f0bc08",
+      "c70517a8217811029a7ff20c6ee8edeaefc590964a76d0681f236e16b7188355",
+      "84a4403d0b4a22daca8edfc6d315382177c7948d11d2f974c8a21c5a996f3b98",
+      "8dd0ee0dd6e990c0f1b64fdf0d0d4232f6a8f1d940ad7d950b407d60bc457674",
+      "346c9e4ebee7f304a00c8373db5f1656ee4dd3cc4e0e99d2fcb0b31bb611887c",
+      "12b1e5c84c11a1d0acde694dd6fa68143c7c81a371262e762dfb16fb79c9fdab",
+      "26316052cbe9bd1fccd678dfed924064fb3b4af52e96a6f9ad9ff8268ce84ad5",
+      "61919c33c3f3d0a69c0fe84496e2effec7ea463f4e699a2d1fa68d59e76e7477"
+    ],
+    "features": {
+      "Module": 1,
+      "FunctionDef": 1,
+      "arguments": 1,
+      "Assign": 2,
+      "Return": 1,
+      "arg": 5,
+      "Name": 9,
+      "BinOp": 7,
+      "Store": 2,
+      "Sub": 1,
+      "Div": 2,
+      "Add": 3,
+      "IfExp": 1,
+      "Load": 7,
+      "Compare": 1,
+      "Constant": 6,
+      "Pow": 1,
+      "Lt": 1
+    },
+    "seconds": 0.09406790000139154
+  },
+  "http_status": 200,
+  "returned_model": "glm-4.7",
+  "finish_reason": "stop",
+  "program_sha256": "2f5845c5c969d988d6ad15bbd43ff364a8e7d61ec0b5ce10b783b3ef2acf85a2",
+  "wall_seconds": 7.7753595000012865,
+  "finished_utc": "2026-10-20T02:36:10Z"
+}

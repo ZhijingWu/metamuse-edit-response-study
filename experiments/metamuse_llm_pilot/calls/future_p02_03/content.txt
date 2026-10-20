@@ -1,0 +1,6 @@
+We want a scoring function that prioritizes bins which will leave less remaining space (creating a tighter fit), but we also want to incorporate the item size and bin index to break ties effectively. By scoring with `remaining - item`, bins that would leave less residual space get a higher score. Adding `-index` ensures that among bins that would result in the same remaining space, we prefer the earlier bin (lowest index), which helps consolidate items. The `capacity` and `n_bins` terms provide constant offsets that do not change the relative ordering but keep the scores well-scaled.
+
+```python
+def score(remaining, item, capacity, index, n_bins):
+    return capacity - remaining + item - index
+```

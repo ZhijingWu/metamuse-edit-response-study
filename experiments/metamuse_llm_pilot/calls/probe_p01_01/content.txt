@@ -1,0 +1,16 @@
+```python
+def score(remaining, item, capacity, index, n_bins):
+    used = capacity - remaining
+    new_used = used + item
+    item_ratio = item / capacity
+    used_ratio = new_used / capacity
+    waste_ratio = 1.0 - used_ratio
+    if waste_ratio > 0.0:
+        waste_penalty = 1.0 / (waste_ratio * waste_ratio + 0.01)
+    else:
+        waste_penalty = 1000.0
+    fit_ratio = item / remaining
+    pop_bonus = 1.0 + used_ratio
+    size_boost = 1.0 + item_ratio * 2.0
+    return pop_bonus * size_boost * fit_ratio - waste_penalty * 0.1
+```

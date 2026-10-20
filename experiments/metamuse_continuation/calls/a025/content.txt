@@ -1,0 +1,12 @@
+The parent uses `-(remaining - item)`, which is equivalent to `item - remaining`. This prioritizes the bin with the minimum remaining space (Best Fit). 
+
+To improve packing, especially for sequences with varying distributions, we introduce a nonlinear conditional modification. We penalize bins that would leave a very small remaining capacity (less than 20% of the bin), as such fragments are often unusable for future items. If the resulting leftover space is small, we sharply reduce the bin's priority using the ratio of leftover to item. If the leftover is large, we retain the strong Best Fit affinity to the item's size.
+
+```python
+def score(remaining, item, capacity, index, n_bins):
+    leftover = remaining - item
+    if leftover < 20:
+        return item - remaining + leftover / (item + 1)
+    else:
+        return item ** 1.2 - remaining
+```

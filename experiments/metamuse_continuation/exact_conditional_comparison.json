@@ -1,0 +1,319 @@
+{
+  "available": true,
+  "methods": {
+    "performance": {
+      "output_probabilities": {
+        "new_p01_02": 1.0
+      },
+      "expected_train_mean": 12.689728814833678,
+      "expected_nominal_cny": 0.0572926,
+      "expected_evaluation_seconds": 9.470359399996596,
+      "attempts": 32,
+      "probe_attempts": 0,
+      "future_samples_per_retained_parent": 8,
+      "expected_new_test": 6.793752154736028,
+      "expected_bank_means": [
+        6.461026037195561,
+        6.792885058846687,
+        6.994437813674231,
+        6.190269219460119,
+        7.812702523878034,
+        6.886521169509407,
+        6.5470068896916285,
+        6.665168525632561
+      ],
+      "test_invalid_probability": 0
+    },
+    "random": {
+      "output_probabilities": {
+        "new_p01_02": 0.5000000000000001,
+        "new_p00_00": 0.28571428571428575,
+        "new_p02_01": 0.14285714285714288,
+        "new_p03_01": 0.05714285714285714,
+        "new_p04_03": 0.014285714285714285
+      },
+      "expected_train_mean": 12.755866380971247,
+      "expected_nominal_cny": 0.05467790000000001,
+      "expected_evaluation_seconds": 11.019391649999307,
+      "attempts": 32,
+      "probe_attempts": 0,
+      "future_samples_per_retained_parent": 8,
+      "expected_new_test": 6.793599420292209,
+      "expected_bank_means": [
+        6.462240808818497,
+        6.746588762550392,
+        7.038297462797039,
+        6.19026921946012,
+        7.812702523878035,
+        6.8865211695094075,
+        6.54700688969163,
+        6.665168525632562
+      ],
+      "test_invalid_probability": 0
+    },
+    "neutral": {
+      "output_probabilities": {
+        "new_p00_00": 0.5,
+        "new_p01_02": 0.5
+      },
+      "expected_train_mean": 12.755866380971245,
+      "expected_nominal_cny": 0.0546779,
+      "expected_evaluation_seconds": 11.019391649999307,
+      "attempts": 32,
+      "probe_attempts": 0,
+      "future_samples_per_retained_parent": 8,
+      "expected_new_test": 6.793447573839342,
+      "expected_bank_means": [
+        6.461026037195561,
+        6.74658876255039,
+        7.038297462797038,
+        6.190269219460119,
+        7.812702523878034,
+        6.886521169509407,
+        6.5470068896916285,
+        6.665168525632561
+      ],
+      "test_invalid_probability": 0
+    },
+    "performance_cells_short": {
+      "output_probabilities": {
+        "new_p00_00": 1.0
+      },
+      "expected_train_mean": 12.82200394710881,
+      "expected_nominal_cny": 0.055986400000000006,
+      "expected_evaluation_seconds": 11.909192999999505,
+      "attempts": 32,
+      "probe_attempts": 0,
+      "future_samples_per_retained_parent": 8,
+      "expected_new_test": 6.793142992942656,
+      "expected_bank_means": [
+        6.461026037195561,
+        6.700292466254094,
+        7.0821571119198445,
+        6.190269219460119,
+        7.812702523878034,
+        6.886521169509407,
+        6.5470068896916285,
+        6.665168525632561
+      ],
+      "test_invalid_probability": 0
+    },
+    "structural": {
+      "output_probabilities": {
+        "new_p00_00": 1.0
+      },
+      "expected_train_mean": 12.82200394710881,
+      "expected_nominal_cny": 0.05383299999999999,
+      "expected_evaluation_seconds": 12.198539399994843,
+      "attempts": 32,
+      "probe_attempts": 0,
+      "future_samples_per_retained_parent": 8,
+      "expected_new_test": 6.793142992942656,
+      "expected_bank_means": [
+        6.461026037195561,
+        6.700292466254094,
+        7.0821571119198445,
+        6.190269219460119,
+        7.812702523878034,
+        6.886521169509407,
+        6.5470068896916285,
+        6.665168525632561
+      ],
+      "test_invalid_probability": 0
+    },
+    "response_current": {
+      "output_probabilities": {
+        "new_p01_02": 0.5000000000000003,
+        "new_p00_00": 0.2500000000000002,
+        "new_p00_01": 0.1250000000000001,
+        "new_p00_03": 0.08333333333333338,
+        "new_p00_04": 0.027777777777777794,
+        "new_p00_06": 0.013888888888888897
+      },
+      "expected_train_mean": 12.755866380971254,
+      "expected_nominal_cny": 0.0577888,
+      "expected_evaluation_seconds": 12.227272549996997,
+      "attempts": 32,
+      "probe_attempts": 16,
+      "future_samples_per_retained_parent": 4,
+      "expected_new_test": 6.793447573839347,
+      "expected_bank_means": [
+        6.461026037195565,
+        6.746588762550395,
+        7.0382974627970425,
+        6.190269219460124,
+        7.81270252387804,
+        6.886521169509412,
+        6.547006889691634,
+        6.665168525632566
+      ],
+      "test_invalid_probability": 0
+    },
+    "response_masked": {
+      "output_probabilities": {
+        "new_p01_02": 0.5000000000000004,
+        "new_p00_00": 0.2500000000000002,
+        "new_p00_01": 0.1250000000000001,
+        "new_p00_03": 0.08333333333333338,
+        "new_p00_04": 0.027777777777777797,
+        "new_p00_06": 0.013888888888888899
+      },
+      "expected_train_mean": 12.755866380971254,
+      "expected_nominal_cny": 0.060274799999999996,
+      "expected_evaluation_seconds": 12.303633749997061,
+      "attempts": 32,
+      "probe_attempts": 16,
+      "future_samples_per_retained_parent": 4,
+      "expected_new_test": 6.793447573839348,
+      "expected_bank_means": [
+        6.461026037195566,
+        6.746588762550396,
+        7.038297462797043,
+        6.1902692194601245,
+        7.812702523878041,
+        6.886521169509413,
+        6.547006889691635,
+        6.665168525632567
+      ],
+      "test_invalid_probability": 0
+    },
+    "response_complete": {
+      "output_probabilities": {
+        "new_p01_02": 0.5000000000000004,
+        "new_p00_00": 0.2500000000000002,
+        "new_p00_01": 0.1250000000000001,
+        "new_p00_03": 0.08333333333333338,
+        "new_p00_04": 0.027777777777777797,
+        "new_p00_06": 0.013888888888888899
+      },
+      "expected_train_mean": 12.755866380971254,
+      "expected_nominal_cny": 0.060274799999999996,
+      "expected_evaluation_seconds": 12.303633749997061,
+      "attempts": 32,
+      "probe_attempts": 16,
+      "future_samples_per_retained_parent": 4,
+      "expected_new_test": 6.793447573839348,
+      "expected_bank_means": [
+        6.461026037195566,
+        6.746588762550396,
+        7.038297462797043,
+        6.1902692194601245,
+        7.812702523878041,
+        6.886521169509413,
+        6.547006889691635,
+        6.665168525632567
+      ],
+      "test_invalid_probability": 0
+    },
+    "response_local": {
+      "output_probabilities": {
+        "new_p01_02": 0.75,
+        "new_p00_00": 0.1875,
+        "new_p00_01": 0.046875,
+        "new_p00_03": 0.015625
+      },
+      "expected_train_mean": 12.722797597902462,
+      "expected_nominal_cny": 0.05692030000000001,
+      "expected_evaluation_seconds": 10.848818674998256,
+      "attempts": 32,
+      "probe_attempts": 8,
+      "future_samples_per_retained_parent": 6,
+      "expected_new_test": 6.793599864287685,
+      "expected_bank_means": [
+        6.461026037195562,
+        6.769736910698539,
+        7.016367638235634,
+        6.190269219460119,
+        7.812702523878034,
+        6.886521169509407,
+        6.547006889691628,
+        6.665168525632562
+      ],
+      "test_invalid_probability": 0
+    },
+    "offspring_quality": {
+      "output_probabilities": {
+        "new_p00_00": 0.5000000000000004,
+        "new_p00_01": 0.2500000000000002,
+        "new_p00_03": 0.16666666666666677,
+        "new_p00_04": 0.05555555555555558,
+        "new_p00_06": 0.02777777777777779
+      },
+      "expected_train_mean": 12.82200394710882,
+      "expected_nominal_cny": 0.0608571,
+      "expected_evaluation_seconds": 12.269668249995448,
+      "attempts": 32,
+      "probe_attempts": 16,
+      "future_samples_per_retained_parent": 4,
+      "expected_new_test": 6.793142992942661,
+      "expected_bank_means": [
+        6.461026037195566,
+        6.7002924662540995,
+        7.08215711191985,
+        6.190269219460124,
+        7.81270252387804,
+        6.886521169509412,
+        6.547006889691634,
+        6.665168525632566
+      ],
+      "test_invalid_probability": 0
+    },
+    "probe_control": {
+      "output_probabilities": {
+        "new_p01_02": 0.5000000000000004,
+        "new_p00_00": 0.2500000000000002,
+        "new_p00_01": 0.1250000000000001,
+        "new_p00_03": 0.08333333333333338,
+        "new_p00_04": 0.027777777777777797,
+        "new_p00_06": 0.013888888888888899
+      },
+      "expected_train_mean": 12.755866380971254,
+      "expected_nominal_cny": 0.0606129,
+      "expected_evaluation_seconds": 11.794664099995316,
+      "attempts": 32,
+      "probe_attempts": 16,
+      "future_samples_per_retained_parent": 4,
+      "expected_new_test": 6.793447573839348,
+      "expected_bank_means": [
+        6.461026037195566,
+        6.746588762550396,
+        7.038297462797043,
+        6.1902692194601245,
+        7.812702523878041,
+        6.886521169509413,
+        6.547006889691635,
+        6.665168525632567
+      ],
+      "test_invalid_probability": 0
+    },
+    "validity_only": {
+      "output_probabilities": {
+        "new_p01_02": 0.5000000000000002,
+        "new_p00_00": 0.2500000000000002,
+        "new_p00_01": 0.1250000000000001,
+        "new_p00_03": 0.08333333333333338,
+        "new_p00_04": 0.027777777777777794,
+        "new_p00_06": 0.013888888888888897
+      },
+      "expected_train_mean": 12.755866380971252,
+      "expected_nominal_cny": 0.0581269,
+      "expected_evaluation_seconds": 11.718302899995251,
+      "attempts": 32,
+      "probe_attempts": 16,
+      "future_samples_per_retained_parent": 4,
+      "expected_new_test": 6.793447573839346,
+      "expected_bank_means": [
+        6.461026037195564,
+        6.746588762550394,
+        7.038297462797042,
+        6.190269219460123,
+        7.812702523878039,
+        6.886521169509411,
+        6.547006889691633,
+        6.6651685256325655
+      ],
+      "test_invalid_probability": 0
+    }
+  },
+  "definition": "Exact finite-bank allocation expectation, not additional LLM experiments."
+}

@@ -1,0 +1,10 @@
+The parent heuristic prioritized bins solely by their index, favoring lower indices regardless of remaining capacity or item size. To improve packing, we must also consider how well the item fits into the bin. 
+
+We modify the scoring rule to combine the original index preference with a **fit-based term**. The fit term uses a nonlinear function: `(item / remaining) ** 2`. This strongly penalizes bins where the item is small relative to the remaining space, guiding the item toward bins where it fills a more significant fraction of the leftover capacity. The two terms are balanced so the index still breaks ties effectively, but the fit term prevents scattering small items across mostly empty bins.
+
+```python
+def score(remaining, item, capacity, index, n_bins):
+    fit = (item / remaining) ** 2
+    idx_pref = 1.0 / (index + 1)
+    return idx_pref + fit
+```

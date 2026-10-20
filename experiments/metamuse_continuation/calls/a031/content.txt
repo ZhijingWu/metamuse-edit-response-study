@@ -1,0 +1,16 @@
+We introduce a nonlinear conditional adjustment to the parent's `remaining - item` (slack) scoring. We penalize bins where the slack is an integer fraction of the capacity (a common artifact in adversarial and complementary item streams), and slightly favor bins where the slack and item are coprime (promoting diversity in residual space). This directly targets the parent's slack value without altering its core rationale.
+
+```python
+def score(remaining, item, capacity, index, n_bins):
+    s = remaining - item
+    if capacity % s == 0:
+        p = s / capacity
+        return s - s * p * p - 1.0
+    if s % item == 0:
+        return s - item / s - 0.5
+    if item % s == 0:
+        return s - s / item - 0.5
+    if (item * s) % (item + s) == 0:
+        return s - 0.25
+    return s + s / (capacity + s)
+```

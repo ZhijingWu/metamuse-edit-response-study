@@ -1,0 +1,17 @@
+```python
+def score(remaining, item, capacity, index, n_bins):
+    new_rem = remaining - item
+    util = capacity - remaining
+    fill = util / capacity
+    rem_f = new_rem / capacity
+    item_f = item / capacity
+    score1 = fill * fill / (new_rem + 1)
+    if new_rem < 20:
+        bonus = 1.0 / (new_rem + 1)
+    elif new_rem < 50:
+        bonus = 0.05
+    else:
+        bonus = 0.0
+    big_item = item_f if item_f > 0.5 else 0.0
+    return score1 + bonus + big_item
+```

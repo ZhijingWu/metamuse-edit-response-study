@@ -1,0 +1,29 @@
+{
+  "id": "probe_p05_00",
+  "parent": "p05",
+  "role": "probe",
+  "slot": 0,
+  "edit": "local",
+  "http_success": true,
+  "evaluation": {
+    "valid": false,
+    "reason": "SyntaxError: unterminated string literal (detected at line 5) (<unknown>, line 5)"
+  },
+  "usage": {
+    "completion_tokens": 211,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "prompt_tokens": 310,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "total_tokens": 521
+  },
+  "cost_cny": 0.004616,
+  "http_status": 200,
+  "returned_model": "glm-4.7",
+  "finish_reason": "stop",
+  "wall_seconds": 10.624930399999357,
+  "finished_utc": "2026-10-20T01:42:15Z"
+}
