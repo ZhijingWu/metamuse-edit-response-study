@@ -67,3 +67,7 @@ Provider response envelopes and request IDs, downloaded third-party papers/docum
 One parent bank; four elementary heuristic families; a stateless scalar interface; two reused probe samples per parent; and a provider alias (GLM-4.7) without an immutable revision or provider seed. Neutral retention is a one-boundary analogue of drift. The eight test banks describe workload variation, not independent model searches. These results neither prove a universal impossibility nor reproduce full MetaMuse or cited evolutionary systems. New stochastic API calls cannot be promised to regenerate the recorded programs.
 
 The open question remains when edit-conditioned information can justify its acquisition cost. These results support no new selection algorithm and no further tuning on the exposed test traces. Paid acquisition is separate historical code, excluded from every reproduction command; see [acquisition documentation](docs/PAID_ACQUISITION.md).
+
+## Release integrity
+
+The publication manifest now binds the actual Git file bytes. The [integrity repair receipt](provenance/INTEGRITY_REPAIR.json) preserves the earlier manifest and documents its CRLF/LF mismatch. Scientific payloads and conclusions are unchanged.
